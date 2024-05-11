@@ -1,0 +1,3723 @@
+---> ---cifar100---
+---> Argument
+    > network     : resnet32
+    > epochs      : 200
+    > batch_size  : 128
+    > update_epoch: 1
+    > lr          : 0.1
+    > lr_decay    : 0.01
+    > momentum    : 0.9
+    > wd          : 0.0002
+    > nesterov    : False
+    > scheduler   : warmup
+    > warmup      : 5
+    > aug_prob    : 0.5
+    > cutout      : False
+    > cmo         : False
+    > posthoc_la  : False
+    > cuda        : False
+    > aug_type    : autoaug_cifar
+    > sim_type    : none
+    > max_d       : 30
+    > num_test    : 10
+    > accept_rate : 0.6
+    > verbose     : False
+    > use_norm    : False
+    > out         : /kaggle/working/log1
+    > data_dir    : ~/dataset/
+    > workers     : 4
+    > seed        : 5
+    > gpu         : 0
+    > dataset     : cifar100
+    > num_max     : 500
+    > imb_ratio   : 100
+    > loss_fn     : ldam_drw
+    > num_experts : 3
+    > ride_distill: False
+    > num_class   : 100
+---> Epoch: [1 | 200]
+    > [Train]	Loss:	10.7590
+    > [Test ]	Loss:	4.5819	Acc:	4.7900
+    > [Stats]	Many:	0.1366	Medium:	0.0003	Few:	0.0000
+    > [Best ]	Acc:	4.7900	Many:	13.6571	Medium:	0.0286	Few:	0.0000
+    > [Param]	LR:	0.02000000
+---> Epoch: [2 | 200]
+    > [Train]	Loss:	10.2643
+    > [Test ]	Loss:	4.5706	Acc:	4.7900
+    > [Stats]	Many:	0.1297	Medium:	0.0071	Few:	0.0000
+    > [Best ]	Acc:	4.7900	Many:	12.9714	Medium:	0.7143	Few:	0.0000
+    > [Param]	LR:	0.04000000
+---> Epoch: [3 | 200]
+    > [Train]	Loss:	10.1323
+    > [Test ]	Loss:	4.5621	Acc:	7.3200
+    > [Stats]	Many:	0.2023	Medium:	0.0069	Few:	0.0000
+    > [Best ]	Acc:	7.3200	Many:	20.2286	Medium:	0.6857	Few:	0.0000
+    > [Param]	LR:	0.06000000
+---> Epoch: [4 | 200]
+    > [Train]	Loss:	9.8953
+    > [Test ]	Loss:	4.5493	Acc:	8.4400
+    > [Stats]	Many:	0.2097	Medium:	0.0314	Few:	0.0000
+    > [Best ]	Acc:	8.4400	Many:	20.9714	Medium:	3.1429	Few:	0.0000
+    > [Param]	LR:	0.08000000
+---> Epoch: [5 | 200]
+    > [Train]	Loss:	9.7528
+    > [Test ]	Loss:	4.5438	Acc:	7.3700
+    > [Stats]	Many:	0.2017	Medium:	0.0051	Few:	0.0043
+    > [Best ]	Acc:	8.4400	Many:	20.9714	Medium:	3.1429	Few:	0.0000
+    > [Param]	LR:	0.10000000
+---> Epoch: [6 | 200]
+    > [Train]	Loss:	9.5065
+    > [Test ]	Loss:	4.5292	Acc:	10.3500
+    > [Stats]	Many:	0.2434	Medium:	0.0523	Few:	0.0000
+    > [Best ]	Acc:	10.3500	Many:	24.3429	Medium:	5.2286	Few:	0.0000
+    > [Param]	LR:	0.10000000
+---> Epoch: [7 | 200]
+    > [Train]	Loss:	9.2975
+    > [Test ]	Loss:	4.5223	Acc:	10.3000
+    > [Stats]	Many:	0.2577	Medium:	0.0363	Few:	0.0003
+    > [Best ]	Acc:	10.3500	Many:	24.3429	Medium:	5.2286	Few:	0.0000
+    > [Param]	LR:	0.10000000
+---> Epoch: [8 | 200]
+    > [Train]	Loss:	9.1632
+    > [Test ]	Loss:	4.5097	Acc:	12.2100
+    > [Stats]	Many:	0.2966	Medium:	0.0497	Few:	0.0030
+    > [Best ]	Acc:	12.2100	Many:	29.6571	Medium:	4.9714	Few:	0.3000
+    > [Param]	LR:	0.10000000
+---> Epoch: [9 | 200]
+    > [Train]	Loss:	8.9343
+    > [Test ]	Loss:	4.5060	Acc:	11.8800
+    > [Stats]	Many:	0.2717	Medium:	0.0677	Few:	0.0000
+    > [Best ]	Acc:	12.2100	Many:	29.6571	Medium:	4.9714	Few:	0.3000
+    > [Param]	LR:	0.10000000
+---> Epoch: [10 | 200]
+    > [Train]	Loss:	8.7743
+    > [Test ]	Loss:	4.4970	Acc:	12.1200
+    > [Stats]	Many:	0.2763	Medium:	0.0634	Few:	0.0077
+    > [Best ]	Acc:	12.2100	Many:	29.6571	Medium:	4.9714	Few:	0.3000
+    > [Param]	LR:	0.10000000
+---> Epoch: [11 | 200]
+    > [Train]	Loss:	8.6297
+    > [Test ]	Loss:	4.4941	Acc:	12.3600
+    > [Stats]	Many:	0.2854	Medium:	0.0637	Few:	0.0047
+    > [Best ]	Acc:	12.3600	Many:	28.5429	Medium:	6.3714	Few:	0.4667
+    > [Param]	LR:	0.10000000
+---> Epoch: [12 | 200]
+    > [Train]	Loss:	8.4584
+    > [Test ]	Loss:	4.4789	Acc:	12.0500
+    > [Stats]	Many:	0.3026	Medium:	0.0389	Few:	0.0033
+    > [Best ]	Acc:	12.3600	Many:	28.5429	Medium:	6.3714	Few:	0.4667
+    > [Param]	LR:	0.10000000
+---> Epoch: [13 | 200]
+    > [Train]	Loss:	8.3740
+    > [Test ]	Loss:	4.4719	Acc:	14.5200
+    > [Stats]	Many:	0.3569	Medium:	0.0557	Few:	0.0027
+    > [Best ]	Acc:	14.5200	Many:	35.6857	Medium:	5.5714	Few:	0.2667
+    > [Param]	LR:	0.10000000
+---> Epoch: [14 | 200]
+    > [Train]	Loss:	8.2337
+    > [Test ]	Loss:	4.4671	Acc:	17.0100
+    > [Stats]	Many:	0.4117	Medium:	0.0731	Few:	0.0013
+    > [Best ]	Acc:	17.0100	Many:	41.1714	Medium:	7.3143	Few:	0.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [15 | 200]
+    > [Train]	Loss:	8.0727
+    > [Test ]	Loss:	4.4780	Acc:	13.9100
+    > [Stats]	Many:	0.3283	Medium:	0.0649	Few:	0.0050
+    > [Best ]	Acc:	17.0100	Many:	41.1714	Medium:	7.3143	Few:	0.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [16 | 200]
+    > [Train]	Loss:	7.9538
+    > [Test ]	Loss:	4.4643	Acc:	16.7900
+    > [Stats]	Many:	0.4014	Medium:	0.0769	Few:	0.0017
+    > [Best ]	Acc:	17.0100	Many:	41.1714	Medium:	7.3143	Few:	0.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [17 | 200]
+    > [Train]	Loss:	7.8597
+    > [Test ]	Loss:	4.4482	Acc:	17.8200
+    > [Stats]	Many:	0.4094	Medium:	0.0966	Few:	0.0037
+    > [Best ]	Acc:	17.8200	Many:	40.9429	Medium:	9.6571	Few:	0.3667
+    > [Param]	LR:	0.10000000
+---> Epoch: [18 | 200]
+    > [Train]	Loss:	7.7090
+    > [Test ]	Loss:	4.4459	Acc:	18.8000
+    > [Stats]	Many:	0.4471	Medium:	0.0786	Few:	0.0133
+    > [Best ]	Acc:	18.8000	Many:	44.7143	Medium:	7.8571	Few:	1.3333
+    > [Param]	LR:	0.10000000
+---> Epoch: [19 | 200]
+    > [Train]	Loss:	7.6435
+    > [Test ]	Loss:	4.4502	Acc:	18.0000
+    > [Stats]	Many:	0.4311	Medium:	0.0814	Few:	0.0020
+    > [Best ]	Acc:	18.8000	Many:	44.7143	Medium:	7.8571	Few:	1.3333
+    > [Param]	LR:	0.10000000
+---> Epoch: [20 | 200]
+    > [Train]	Loss:	7.5082
+    > [Test ]	Loss:	4.4303	Acc:	20.0000
+    > [Stats]	Many:	0.4580	Medium:	0.1054	Few:	0.0093
+    > [Best ]	Acc:	20.0000	Many:	45.8000	Medium:	10.5429	Few:	0.9333
+    > [Param]	LR:	0.10000000
+---> Epoch: [21 | 200]
+    > [Train]	Loss:	7.4163
+    > [Test ]	Loss:	4.4391	Acc:	19.6400
+    > [Stats]	Many:	0.4514	Medium:	0.1034	Few:	0.0073
+    > [Best ]	Acc:	20.0000	Many:	45.8000	Medium:	10.5429	Few:	0.9333
+    > [Param]	LR:	0.10000000
+---> Epoch: [22 | 200]
+    > [Train]	Loss:	7.3339
+    > [Test ]	Loss:	4.4297	Acc:	20.9100
+    > [Stats]	Many:	0.4911	Medium:	0.1003	Few:	0.0070
+    > [Best ]	Acc:	20.9100	Many:	49.1143	Medium:	10.0286	Few:	0.7000
+    > [Param]	LR:	0.10000000
+---> Epoch: [23 | 200]
+    > [Train]	Loss:	7.1854
+    > [Test ]	Loss:	4.4155	Acc:	21.8600
+    > [Stats]	Many:	0.4966	Medium:	0.1171	Few:	0.0127
+    > [Best ]	Acc:	21.8600	Many:	49.6571	Medium:	11.7143	Few:	1.2667
+    > [Param]	LR:	0.10000000
+---> Epoch: [24 | 200]
+    > [Train]	Loss:	7.1825
+    > [Test ]	Loss:	4.4203	Acc:	19.7700
+    > [Stats]	Many:	0.4426	Medium:	0.1163	Few:	0.0070
+    > [Best ]	Acc:	21.8600	Many:	49.6571	Medium:	11.7143	Few:	1.2667
+    > [Param]	LR:	0.10000000
+---> Epoch: [25 | 200]
+    > [Train]	Loss:	7.0515
+    > [Test ]	Loss:	4.4299	Acc:	18.9700
+    > [Stats]	Many:	0.4369	Medium:	0.1023	Few:	0.0033
+    > [Best ]	Acc:	21.8600	Many:	49.6571	Medium:	11.7143	Few:	1.2667
+    > [Param]	LR:	0.10000000
+---> Epoch: [26 | 200]
+    > [Train]	Loss:	6.9736
+    > [Test ]	Loss:	4.4006	Acc:	22.6700
+    > [Stats]	Many:	0.5049	Medium:	0.1363	Few:	0.0077
+    > [Best ]	Acc:	22.6700	Many:	50.4857	Medium:	13.6286	Few:	0.7667
+    > [Param]	LR:	0.10000000
+---> Epoch: [27 | 200]
+    > [Train]	Loss:	6.9342
+    > [Test ]	Loss:	4.4248	Acc:	19.6400
+    > [Stats]	Many:	0.4389	Medium:	0.1180	Few:	0.0050
+    > [Best ]	Acc:	22.6700	Many:	50.4857	Medium:	13.6286	Few:	0.7667
+    > [Param]	LR:	0.10000000
+---> Epoch: [28 | 200]
+    > [Train]	Loss:	6.7836
+    > [Test ]	Loss:	4.3943	Acc:	22.6100
+    > [Stats]	Many:	0.5037	Medium:	0.1294	Few:	0.0150
+    > [Best ]	Acc:	22.6700	Many:	50.4857	Medium:	13.6286	Few:	0.7667
+    > [Param]	LR:	0.10000000
+---> Epoch: [29 | 200]
+    > [Train]	Loss:	6.7284
+    > [Test ]	Loss:	4.4140	Acc:	22.1300
+    > [Stats]	Many:	0.5111	Medium:	0.1163	Few:	0.0057
+    > [Best ]	Acc:	22.6700	Many:	50.4857	Medium:	13.6286	Few:	0.7667
+    > [Param]	LR:	0.10000000
+---> Epoch: [30 | 200]
+    > [Train]	Loss:	6.6702
+    > [Test ]	Loss:	4.4211	Acc:	18.0400
+    > [Stats]	Many:	0.4314	Medium:	0.0797	Few:	0.0050
+    > [Best ]	Acc:	22.6700	Many:	50.4857	Medium:	13.6286	Few:	0.7667
+    > [Param]	LR:	0.10000000
+---> Epoch: [31 | 200]
+    > [Train]	Loss:	6.6826
+    > [Test ]	Loss:	4.3905	Acc:	25.0200
+    > [Stats]	Many:	0.5357	Medium:	0.1691	Few:	0.0117
+    > [Best ]	Acc:	25.0200	Many:	53.5714	Medium:	16.9143	Few:	1.1667
+    > [Param]	LR:	0.10000000
+---> Epoch: [32 | 200]
+    > [Train]	Loss:	6.5571
+    > [Test ]	Loss:	4.3987	Acc:	23.3500
+    > [Stats]	Many:	0.5214	Medium:	0.1391	Few:	0.0077
+    > [Best ]	Acc:	25.0200	Many:	53.5714	Medium:	16.9143	Few:	1.1667
+    > [Param]	LR:	0.10000000
+---> Epoch: [33 | 200]
+    > [Train]	Loss:	6.5217
+    > [Test ]	Loss:	4.3822	Acc:	24.5300
+    > [Stats]	Many:	0.5446	Medium:	0.1509	Few:	0.0063
+    > [Best ]	Acc:	25.0200	Many:	53.5714	Medium:	16.9143	Few:	1.1667
+    > [Param]	LR:	0.10000000
+---> Epoch: [34 | 200]
+    > [Train]	Loss:	6.4632
+    > [Test ]	Loss:	4.3870	Acc:	27.3800
+    > [Stats]	Many:	0.5766	Medium:	0.1891	Few:	0.0193
+    > [Best ]	Acc:	27.3800	Many:	57.6571	Medium:	18.9143	Few:	1.9333
+    > [Param]	LR:	0.10000000
+---> Epoch: [35 | 200]
+    > [Train]	Loss:	6.3678
+    > [Test ]	Loss:	4.3884	Acc:	24.1400
+    > [Stats]	Many:	0.5240	Medium:	0.1491	Few:	0.0193
+    > [Best ]	Acc:	27.3800	Many:	57.6571	Medium:	18.9143	Few:	1.9333
+    > [Param]	LR:	0.10000000
+---> Epoch: [36 | 200]
+    > [Train]	Loss:	6.3422
+    > [Test ]	Loss:	4.3789	Acc:	25.8500
+    > [Stats]	Many:	0.5477	Medium:	0.1820	Few:	0.0103
+    > [Best ]	Acc:	27.3800	Many:	57.6571	Medium:	18.9143	Few:	1.9333
+    > [Param]	LR:	0.10000000
+---> Epoch: [37 | 200]
+    > [Train]	Loss:	6.3301
+    > [Test ]	Loss:	4.3901	Acc:	24.7000
+    > [Stats]	Many:	0.5183	Medium:	0.1726	Few:	0.0173
+    > [Best ]	Acc:	27.3800	Many:	57.6571	Medium:	18.9143	Few:	1.9333
+    > [Param]	LR:	0.10000000
+---> Epoch: [38 | 200]
+    > [Train]	Loss:	6.3185
+    > [Test ]	Loss:	4.3850	Acc:	26.2300
+    > [Stats]	Many:	0.5760	Medium:	0.1583	Few:	0.0177
+    > [Best ]	Acc:	27.3800	Many:	57.6571	Medium:	18.9143	Few:	1.9333
+    > [Param]	LR:	0.10000000
+---> Epoch: [39 | 200]
+    > [Train]	Loss:	6.2221
+    > [Test ]	Loss:	4.3944	Acc:	23.4800
+    > [Stats]	Many:	0.5043	Medium:	0.1540	Few:	0.0147
+    > [Best ]	Acc:	27.3800	Many:	57.6571	Medium:	18.9143	Few:	1.9333
+    > [Param]	LR:	0.10000000
+---> Epoch: [40 | 200]
+    > [Train]	Loss:	6.2132
+    > [Test ]	Loss:	4.3699	Acc:	27.1300
+    > [Stats]	Many:	0.5717	Medium:	0.1843	Few:	0.0223
+    > [Best ]	Acc:	27.3800	Many:	57.6571	Medium:	18.9143	Few:	1.9333
+    > [Param]	LR:	0.10000000
+---> Epoch: [41 | 200]
+    > [Train]	Loss:	6.1165
+    > [Test ]	Loss:	4.3643	Acc:	29.4800
+    > [Stats]	Many:	0.6051	Medium:	0.2231	Few:	0.0163
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [42 | 200]
+    > [Train]	Loss:	6.0325
+    > [Test ]	Loss:	4.3737	Acc:	27.1000
+    > [Stats]	Many:	0.5557	Medium:	0.2117	Few:	0.0080
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [43 | 200]
+    > [Train]	Loss:	6.0478
+    > [Test ]	Loss:	4.3877	Acc:	24.0300
+    > [Stats]	Many:	0.5057	Medium:	0.1737	Few:	0.0083
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [44 | 200]
+    > [Train]	Loss:	5.9989
+    > [Test ]	Loss:	4.3737	Acc:	26.1200
+    > [Stats]	Many:	0.5631	Medium:	0.1729	Few:	0.0120
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [45 | 200]
+    > [Train]	Loss:	5.9577
+    > [Test ]	Loss:	4.3642	Acc:	26.9200
+    > [Stats]	Many:	0.5491	Medium:	0.1977	Few:	0.0260
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [46 | 200]
+    > [Train]	Loss:	5.8690
+    > [Test ]	Loss:	4.3677	Acc:	26.0000
+    > [Stats]	Many:	0.5503	Medium:	0.1834	Few:	0.0107
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [47 | 200]
+    > [Train]	Loss:	5.9411
+    > [Test ]	Loss:	4.3684	Acc:	28.0000
+    > [Stats]	Many:	0.5589	Medium:	0.2226	Few:	0.0217
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [48 | 200]
+    > [Train]	Loss:	5.7956
+    > [Test ]	Loss:	4.3736	Acc:	26.3100
+    > [Stats]	Many:	0.5554	Medium:	0.1871	Few:	0.0107
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [49 | 200]
+    > [Train]	Loss:	5.8326
+    > [Test ]	Loss:	4.3741	Acc:	27.0700
+    > [Stats]	Many:	0.5566	Medium:	0.2020	Few:	0.0173
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [50 | 200]
+    > [Train]	Loss:	5.8103
+    > [Test ]	Loss:	4.3607	Acc:	28.6300
+    > [Stats]	Many:	0.5917	Medium:	0.2157	Few:	0.0123
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [51 | 200]
+    > [Train]	Loss:	5.7621
+    > [Test ]	Loss:	4.3626	Acc:	28.0900
+    > [Stats]	Many:	0.6134	Medium:	0.1817	Few:	0.0087
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [52 | 200]
+    > [Train]	Loss:	5.7643
+    > [Test ]	Loss:	4.3665	Acc:	28.0200
+    > [Stats]	Many:	0.5877	Medium:	0.1920	Few:	0.0243
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [53 | 200]
+    > [Train]	Loss:	5.6489
+    > [Test ]	Loss:	4.3550	Acc:	29.1100
+    > [Stats]	Many:	0.5963	Medium:	0.2214	Few:	0.0163
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [54 | 200]
+    > [Train]	Loss:	5.6301
+    > [Test ]	Loss:	4.3601	Acc:	28.6100
+    > [Stats]	Many:	0.6009	Medium:	0.2031	Few:	0.0157
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [55 | 200]
+    > [Train]	Loss:	5.6031
+    > [Test ]	Loss:	4.3596	Acc:	27.9700
+    > [Stats]	Many:	0.5814	Medium:	0.2054	Few:	0.0143
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [56 | 200]
+    > [Train]	Loss:	5.6314
+    > [Test ]	Loss:	4.3674	Acc:	26.2800
+    > [Stats]	Many:	0.5466	Medium:	0.1886	Few:	0.0183
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [57 | 200]
+    > [Train]	Loss:	5.6065
+    > [Test ]	Loss:	4.3523	Acc:	29.1300
+    > [Stats]	Many:	0.6043	Medium:	0.2091	Few:	0.0220
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [58 | 200]
+    > [Train]	Loss:	5.5501
+    > [Test ]	Loss:	4.3456	Acc:	30.0900
+    > [Stats]	Many:	0.6034	Medium:	0.2386	Few:	0.0207
+    > [Best ]	Acc:	30.0900	Many:	60.3429	Medium:	23.8571	Few:	2.0667
+    > [Param]	LR:	0.10000000
+---> Epoch: [59 | 200]
+    > [Train]	Loss:	5.4986
+    > [Test ]	Loss:	4.3407	Acc:	31.7200
+    > [Stats]	Many:	0.5903	Medium:	0.2969	Few:	0.0223
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [60 | 200]
+    > [Train]	Loss:	5.4558
+    > [Test ]	Loss:	4.3500	Acc:	27.8100
+    > [Stats]	Many:	0.5711	Medium:	0.2006	Few:	0.0267
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [61 | 200]
+    > [Train]	Loss:	5.4417
+    > [Test ]	Loss:	4.3522	Acc:	28.0900
+    > [Stats]	Many:	0.5994	Medium:	0.1943	Few:	0.0103
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [62 | 200]
+    > [Train]	Loss:	5.4651
+    > [Test ]	Loss:	4.3485	Acc:	28.9800
+    > [Stats]	Many:	0.5943	Medium:	0.2200	Few:	0.0160
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [63 | 200]
+    > [Train]	Loss:	5.4146
+    > [Test ]	Loss:	4.3460	Acc:	28.7400
+    > [Stats]	Many:	0.5911	Medium:	0.2240	Few:	0.0070
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [64 | 200]
+    > [Train]	Loss:	5.3708
+    > [Test ]	Loss:	4.3443	Acc:	30.1200
+    > [Stats]	Many:	0.5900	Medium:	0.2549	Few:	0.0183
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [65 | 200]
+    > [Train]	Loss:	5.3604
+    > [Test ]	Loss:	4.3485	Acc:	29.4100
+    > [Stats]	Many:	0.5917	Medium:	0.2391	Few:	0.0110
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [66 | 200]
+    > [Train]	Loss:	5.3458
+    > [Test ]	Loss:	4.3445	Acc:	30.6800
+    > [Stats]	Many:	0.6049	Medium:	0.2583	Few:	0.0157
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [67 | 200]
+    > [Train]	Loss:	5.3068
+    > [Test ]	Loss:	4.3412	Acc:	30.2600
+    > [Stats]	Many:	0.6051	Medium:	0.2451	Few:	0.0167
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [68 | 200]
+    > [Train]	Loss:	5.2430
+    > [Test ]	Loss:	4.3438	Acc:	28.6100
+    > [Stats]	Many:	0.5780	Medium:	0.2346	Few:	0.0057
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [69 | 200]
+    > [Train]	Loss:	5.2894
+    > [Test ]	Loss:	4.3389	Acc:	30.7000
+    > [Stats]	Many:	0.6103	Medium:	0.2603	Few:	0.0077
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [70 | 200]
+    > [Train]	Loss:	5.2130
+    > [Test ]	Loss:	4.3750	Acc:	25.1500
+    > [Stats]	Many:	0.5177	Medium:	0.1920	Few:	0.0103
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [71 | 200]
+    > [Train]	Loss:	5.2247
+    > [Test ]	Loss:	4.3459	Acc:	30.4700
+    > [Stats]	Many:	0.6080	Medium:	0.2400	Few:	0.0263
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [72 | 200]
+    > [Train]	Loss:	5.2196
+    > [Test ]	Loss:	4.3421	Acc:	29.1700
+    > [Stats]	Many:	0.5766	Medium:	0.2386	Few:	0.0213
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [73 | 200]
+    > [Train]	Loss:	5.1611
+    > [Test ]	Loss:	4.3392	Acc:	30.9400
+    > [Stats]	Many:	0.5826	Medium:	0.2891	Few:	0.0143
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [74 | 200]
+    > [Train]	Loss:	5.2076
+    > [Test ]	Loss:	4.3412	Acc:	30.7600
+    > [Stats]	Many:	0.5954	Medium:	0.2506	Few:	0.0383
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [75 | 200]
+    > [Train]	Loss:	5.1663
+    > [Test ]	Loss:	4.3512	Acc:	27.6400
+    > [Stats]	Many:	0.5643	Medium:	0.2034	Few:	0.0257
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [76 | 200]
+    > [Train]	Loss:	5.1245
+    > [Test ]	Loss:	4.3278	Acc:	31.3900
+    > [Stats]	Many:	0.5997	Medium:	0.2829	Few:	0.0167
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [77 | 200]
+    > [Train]	Loss:	5.0775
+    > [Test ]	Loss:	4.3263	Acc:	32.1300
+    > [Stats]	Many:	0.6189	Medium:	0.2840	Few:	0.0177
+    > [Best ]	Acc:	32.1300	Many:	61.8857	Medium:	28.4000	Few:	1.7667
+    > [Param]	LR:	0.10000000
+---> Epoch: [78 | 200]
+    > [Train]	Loss:	5.1397
+    > [Test ]	Loss:	4.3348	Acc:	30.9400
+    > [Stats]	Many:	0.5923	Medium:	0.2729	Few:	0.0220
+    > [Best ]	Acc:	32.1300	Many:	61.8857	Medium:	28.4000	Few:	1.7667
+    > [Param]	LR:	0.10000000
+---> Epoch: [79 | 200]
+    > [Train]	Loss:	5.1304
+    > [Test ]	Loss:	4.3368	Acc:	28.9700
+    > [Stats]	Many:	0.5680	Medium:	0.2506	Few:	0.0107
+    > [Best ]	Acc:	32.1300	Many:	61.8857	Medium:	28.4000	Few:	1.7667
+    > [Param]	LR:	0.10000000
+---> Epoch: [80 | 200]
+    > [Train]	Loss:	5.0767
+    > [Test ]	Loss:	4.3331	Acc:	32.4000
+    > [Stats]	Many:	0.6206	Medium:	0.2954	Few:	0.0113
+    > [Best ]	Acc:	32.4000	Many:	62.0571	Medium:	29.5429	Few:	1.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [81 | 200]
+    > [Train]	Loss:	5.0053
+    > [Test ]	Loss:	4.3375	Acc:	29.8300
+    > [Stats]	Many:	0.5709	Medium:	0.2657	Few:	0.0183
+    > [Best ]	Acc:	32.4000	Many:	62.0571	Medium:	29.5429	Few:	1.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [82 | 200]
+    > [Train]	Loss:	5.0393
+    > [Test ]	Loss:	4.3360	Acc:	29.2900
+    > [Stats]	Many:	0.5729	Medium:	0.2437	Few:	0.0237
+    > [Best ]	Acc:	32.4000	Many:	62.0571	Medium:	29.5429	Few:	1.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [83 | 200]
+    > [Train]	Loss:	5.0972
+    > [Test ]	Loss:	4.3363	Acc:	29.9000
+    > [Stats]	Many:	0.6254	Medium:	0.2186	Few:	0.0120
+    > [Best ]	Acc:	32.4000	Many:	62.0571	Medium:	29.5429	Few:	1.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [84 | 200]
+    > [Train]	Loss:	5.0051
+    > [Test ]	Loss:	4.3368	Acc:	30.6600
+    > [Stats]	Many:	0.5937	Medium:	0.2657	Few:	0.0193
+    > [Best ]	Acc:	32.4000	Many:	62.0571	Medium:	29.5429	Few:	1.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [85 | 200]
+    > [Train]	Loss:	4.9901
+    > [Test ]	Loss:	4.3451	Acc:	29.1400
+    > [Stats]	Many:	0.5669	Medium:	0.2503	Few:	0.0180
+    > [Best ]	Acc:	32.4000	Many:	62.0571	Medium:	29.5429	Few:	1.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [86 | 200]
+    > [Train]	Loss:	5.0036
+    > [Test ]	Loss:	4.3308	Acc:	32.2800
+    > [Stats]	Many:	0.6314	Medium:	0.2749	Few:	0.0187
+    > [Best ]	Acc:	32.4000	Many:	62.0571	Medium:	29.5429	Few:	1.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [87 | 200]
+    > [Train]	Loss:	4.9044
+    > [Test ]	Loss:	4.3283	Acc:	32.9700
+    > [Stats]	Many:	0.6260	Medium:	0.2971	Few:	0.0220
+    > [Best ]	Acc:	32.9700	Many:	62.6000	Medium:	29.7143	Few:	2.2000
+    > [Param]	LR:	0.10000000
+---> Epoch: [88 | 200]
+    > [Train]	Loss:	4.9628
+    > [Test ]	Loss:	4.3422	Acc:	27.8700
+    > [Stats]	Many:	0.5380	Medium:	0.2383	Few:	0.0233
+    > [Best ]	Acc:	32.9700	Many:	62.6000	Medium:	29.7143	Few:	2.2000
+    > [Param]	LR:	0.10000000
+---> Epoch: [89 | 200]
+    > [Train]	Loss:	4.8964
+    > [Test ]	Loss:	4.3216	Acc:	32.6200
+    > [Stats]	Many:	0.6166	Medium:	0.3014	Few:	0.0163
+    > [Best ]	Acc:	32.9700	Many:	62.6000	Medium:	29.7143	Few:	2.2000
+    > [Param]	LR:	0.10000000
+---> Epoch: [90 | 200]
+    > [Train]	Loss:	4.8567
+    > [Test ]	Loss:	4.3237	Acc:	30.3600
+    > [Stats]	Many:	0.6000	Medium:	0.2491	Few:	0.0213
+    > [Best ]	Acc:	32.9700	Many:	62.6000	Medium:	29.7143	Few:	2.2000
+    > [Param]	LR:	0.10000000
+---> Epoch: [91 | 200]
+    > [Train]	Loss:	4.8876
+    > [Test ]	Loss:	4.3339	Acc:	31.2300
+    > [Stats]	Many:	0.5963	Medium:	0.2820	Few:	0.0163
+    > [Best ]	Acc:	32.9700	Many:	62.6000	Medium:	29.7143	Few:	2.2000
+    > [Param]	LR:	0.10000000
+---> Epoch: [92 | 200]
+    > [Train]	Loss:	4.9075
+    > [Test ]	Loss:	4.3298	Acc:	31.8700
+    > [Stats]	Many:	0.5957	Medium:	0.2889	Few:	0.0303
+    > [Best ]	Acc:	32.9700	Many:	62.6000	Medium:	29.7143	Few:	2.2000
+    > [Param]	LR:	0.10000000
+---> Epoch: [93 | 200]
+    > [Train]	Loss:	4.8771
+    > [Test ]	Loss:	4.3168	Acc:	33.6000
+    > [Stats]	Many:	0.6203	Medium:	0.3214	Few:	0.0213
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [94 | 200]
+    > [Train]	Loss:	4.8216
+    > [Test ]	Loss:	4.3352	Acc:	31.1600
+    > [Stats]	Many:	0.6143	Medium:	0.2623	Few:	0.0160
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [95 | 200]
+    > [Train]	Loss:	4.8810
+    > [Test ]	Loss:	4.3267	Acc:	31.3300
+    > [Stats]	Many:	0.6371	Medium:	0.2431	Few:	0.0173
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [96 | 200]
+    > [Train]	Loss:	4.8535
+    > [Test ]	Loss:	4.3246	Acc:	31.6200
+    > [Stats]	Many:	0.6054	Medium:	0.2829	Few:	0.0177
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [97 | 200]
+    > [Train]	Loss:	4.8146
+    > [Test ]	Loss:	4.3250	Acc:	32.1100
+    > [Stats]	Many:	0.5814	Medium:	0.3197	Few:	0.0190
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [98 | 200]
+    > [Train]	Loss:	4.8319
+    > [Test ]	Loss:	4.3231	Acc:	33.5000
+    > [Stats]	Many:	0.6423	Medium:	0.2920	Few:	0.0267
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [99 | 200]
+    > [Train]	Loss:	4.8458
+    > [Test ]	Loss:	4.3246	Acc:	31.8900
+    > [Stats]	Many:	0.5960	Medium:	0.3031	Few:	0.0140
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [100 | 200]
+    > [Train]	Loss:	4.8000
+    > [Test ]	Loss:	4.3427	Acc:	30.6800
+    > [Stats]	Many:	0.5706	Medium:	0.2894	Few:	0.0193
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [101 | 200]
+    > [Train]	Loss:	4.7634
+    > [Test ]	Loss:	4.3142	Acc:	31.7400
+    > [Stats]	Many:	0.6106	Medium:	0.2774	Few:	0.0220
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [102 | 200]
+    > [Train]	Loss:	4.8009
+    > [Test ]	Loss:	4.3260	Acc:	31.5400
+    > [Stats]	Many:	0.6120	Medium:	0.2674	Few:	0.0253
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [103 | 200]
+    > [Train]	Loss:	4.7609
+    > [Test ]	Loss:	4.3312	Acc:	29.4000
+    > [Stats]	Many:	0.5629	Medium:	0.2534	Few:	0.0277
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [104 | 200]
+    > [Train]	Loss:	4.8287
+    > [Test ]	Loss:	4.3231	Acc:	32.5400
+    > [Stats]	Many:	0.6231	Medium:	0.2894	Few:	0.0200
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [105 | 200]
+    > [Train]	Loss:	4.6696
+    > [Test ]	Loss:	4.3120	Acc:	33.5100
+    > [Stats]	Many:	0.6494	Medium:	0.2940	Few:	0.0163
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [106 | 200]
+    > [Train]	Loss:	4.6686
+    > [Test ]	Loss:	4.3402	Acc:	30.0600
+    > [Stats]	Many:	0.5597	Medium:	0.2794	Few:	0.0230
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [107 | 200]
+    > [Train]	Loss:	4.7260
+    > [Test ]	Loss:	4.3256	Acc:	31.7000
+    > [Stats]	Many:	0.5960	Medium:	0.2889	Few:	0.0243
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [108 | 200]
+    > [Train]	Loss:	4.7848
+    > [Test ]	Loss:	4.3497	Acc:	26.9300
+    > [Stats]	Many:	0.5577	Medium:	0.2020	Few:	0.0113
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [109 | 200]
+    > [Train]	Loss:	4.7428
+    > [Test ]	Loss:	4.3155	Acc:	31.5900
+    > [Stats]	Many:	0.5903	Medium:	0.2909	Few:	0.0250
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [110 | 200]
+    > [Train]	Loss:	4.6218
+    > [Test ]	Loss:	4.3206	Acc:	33.1900
+    > [Stats]	Many:	0.6291	Medium:	0.2906	Few:	0.0333
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [111 | 200]
+    > [Train]	Loss:	4.6892
+    > [Test ]	Loss:	4.3337	Acc:	32.0100
+    > [Stats]	Many:	0.6069	Medium:	0.2840	Few:	0.0277
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [112 | 200]
+    > [Train]	Loss:	4.6115
+    > [Test ]	Loss:	4.3076	Acc:	35.1000
+    > [Stats]	Many:	0.6694	Medium:	0.3129	Few:	0.0240
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [113 | 200]
+    > [Train]	Loss:	4.6582
+    > [Test ]	Loss:	4.3273	Acc:	32.5300
+    > [Stats]	Many:	0.6171	Medium:	0.2940	Few:	0.0213
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [114 | 200]
+    > [Train]	Loss:	4.6426
+    > [Test ]	Loss:	4.3354	Acc:	30.1400
+    > [Stats]	Many:	0.5754	Medium:	0.2649	Few:	0.0243
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [115 | 200]
+    > [Train]	Loss:	4.6195
+    > [Test ]	Loss:	4.3318	Acc:	29.9500
+    > [Stats]	Many:	0.5700	Medium:	0.2640	Few:	0.0253
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [116 | 200]
+    > [Train]	Loss:	4.7085
+    > [Test ]	Loss:	4.3096	Acc:	34.3000
+    > [Stats]	Many:	0.6269	Medium:	0.3369	Few:	0.0190
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [117 | 200]
+    > [Train]	Loss:	4.5647
+    > [Test ]	Loss:	4.3247	Acc:	32.6600
+    > [Stats]	Many:	0.6077	Medium:	0.3143	Few:	0.0130
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [118 | 200]
+    > [Train]	Loss:	4.5554
+    > [Test ]	Loss:	4.3245	Acc:	32.8600
+    > [Stats]	Many:	0.6209	Medium:	0.2980	Few:	0.0233
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [119 | 200]
+    > [Train]	Loss:	4.6810
+    > [Test ]	Loss:	4.3112	Acc:	33.2100
+    > [Stats]	Many:	0.6434	Medium:	0.2803	Few:	0.0293
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [120 | 200]
+    > [Train]	Loss:	4.6034
+    > [Test ]	Loss:	4.3299	Acc:	31.1500
+    > [Stats]	Many:	0.5851	Medium:	0.2774	Few:	0.0320
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [121 | 200]
+    > [Train]	Loss:	4.5927
+    > [Test ]	Loss:	4.3161	Acc:	32.7700
+    > [Stats]	Many:	0.6280	Medium:	0.2846	Few:	0.0277
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [122 | 200]
+    > [Train]	Loss:	4.6158
+    > [Test ]	Loss:	4.3186	Acc:	33.3000
+    > [Stats]	Many:	0.6380	Medium:	0.3023	Few:	0.0130
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [123 | 200]
+    > [Train]	Loss:	4.5253
+    > [Test ]	Loss:	4.3274	Acc:	30.2900
+    > [Stats]	Many:	0.5871	Medium:	0.2649	Few:	0.0157
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [124 | 200]
+    > [Train]	Loss:	4.5502
+    > [Test ]	Loss:	4.3085	Acc:	33.5400
+    > [Stats]	Many:	0.6371	Medium:	0.3009	Few:	0.0237
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [125 | 200]
+    > [Train]	Loss:	4.5280
+    > [Test ]	Loss:	4.3130	Acc:	33.9500
+    > [Stats]	Many:	0.6071	Medium:	0.3411	Few:	0.0253
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [126 | 200]
+    > [Train]	Loss:	4.5630
+    > [Test ]	Loss:	4.3230	Acc:	32.1800
+    > [Stats]	Many:	0.6009	Medium:	0.2983	Few:	0.0237
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [127 | 200]
+    > [Train]	Loss:	4.5585
+    > [Test ]	Loss:	4.3104	Acc:	34.0400
+    > [Stats]	Many:	0.6180	Medium:	0.3303	Few:	0.0283
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [128 | 200]
+    > [Train]	Loss:	4.5003
+    > [Test ]	Loss:	4.3066	Acc:	33.7500
+    > [Stats]	Many:	0.6417	Medium:	0.3049	Few:	0.0207
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [129 | 200]
+    > [Train]	Loss:	4.5225
+    > [Test ]	Loss:	4.3260	Acc:	30.8200
+    > [Stats]	Many:	0.5860	Medium:	0.2757	Few:	0.0220
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [130 | 200]
+    > [Train]	Loss:	4.3989
+    > [Test ]	Loss:	4.3269	Acc:	32.3900
+    > [Stats]	Many:	0.6071	Medium:	0.3034	Few:	0.0173
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [131 | 200]
+    > [Train]	Loss:	4.5294
+    > [Test ]	Loss:	4.3114	Acc:	33.8600
+    > [Stats]	Many:	0.6171	Medium:	0.3280	Few:	0.0260
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [132 | 200]
+    > [Train]	Loss:	4.4547
+    > [Test ]	Loss:	4.3266	Acc:	32.0900
+    > [Stats]	Many:	0.6157	Medium:	0.2789	Few:	0.0260
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [133 | 200]
+    > [Train]	Loss:	4.4793
+    > [Test ]	Loss:	4.3167	Acc:	32.1200
+    > [Stats]	Many:	0.6217	Medium:	0.2809	Few:	0.0177
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [134 | 200]
+    > [Train]	Loss:	4.4841
+    > [Test ]	Loss:	4.3102	Acc:	34.2600
+    > [Stats]	Many:	0.6397	Medium:	0.3249	Few:	0.0167
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [135 | 200]
+    > [Train]	Loss:	4.4347
+    > [Test ]	Loss:	4.3132	Acc:	32.6100
+    > [Stats]	Many:	0.6186	Medium:	0.2997	Few:	0.0157
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [136 | 200]
+    > [Train]	Loss:	4.4401
+    > [Test ]	Loss:	4.3205	Acc:	32.0400
+    > [Stats]	Many:	0.5954	Medium:	0.3083	Few:	0.0137
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [137 | 200]
+    > [Train]	Loss:	4.4920
+    > [Test ]	Loss:	4.3147	Acc:	33.0000
+    > [Stats]	Many:	0.6274	Medium:	0.2946	Few:	0.0243
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [138 | 200]
+    > [Train]	Loss:	4.4820
+    > [Test ]	Loss:	4.3229	Acc:	32.7600
+    > [Stats]	Many:	0.6297	Medium:	0.2774	Few:	0.0337
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [139 | 200]
+    > [Train]	Loss:	4.4861
+    > [Test ]	Loss:	4.3023	Acc:	34.8200
+    > [Stats]	Many:	0.6446	Medium:	0.3260	Few:	0.0283
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [140 | 200]
+    > [Train]	Loss:	4.4671
+    > [Test ]	Loss:	4.3228	Acc:	33.5800
+    > [Stats]	Many:	0.6414	Medium:	0.2949	Few:	0.0270
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [141 | 200]
+    > [Train]	Loss:	4.4933
+    > [Test ]	Loss:	4.3162	Acc:	33.2500
+    > [Stats]	Many:	0.6097	Medium:	0.3149	Few:	0.0297
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [142 | 200]
+    > [Train]	Loss:	4.4250
+    > [Test ]	Loss:	4.3078	Acc:	33.7600
+    > [Stats]	Many:	0.6337	Medium:	0.3086	Few:	0.0260
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [143 | 200]
+    > [Train]	Loss:	4.4481
+    > [Test ]	Loss:	4.3157	Acc:	33.5100
+    > [Stats]	Many:	0.6151	Medium:	0.3214	Few:	0.0243
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [144 | 200]
+    > [Train]	Loss:	4.3874
+    > [Test ]	Loss:	4.3153	Acc:	33.3400
+    > [Stats]	Many:	0.6326	Medium:	0.2966	Few:	0.0273
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [145 | 200]
+    > [Train]	Loss:	4.4529
+    > [Test ]	Loss:	4.3149	Acc:	34.5800
+    > [Stats]	Many:	0.6529	Medium:	0.3131	Few:	0.0257
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [146 | 200]
+    > [Train]	Loss:	4.3643
+    > [Test ]	Loss:	4.3102	Acc:	33.4700
+    > [Stats]	Many:	0.6529	Medium:	0.2843	Few:	0.0223
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [147 | 200]
+    > [Train]	Loss:	4.3349
+    > [Test ]	Loss:	4.3167	Acc:	32.4000
+    > [Stats]	Many:	0.6203	Medium:	0.2929	Few:	0.0147
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [148 | 200]
+    > [Train]	Loss:	4.4108
+    > [Test ]	Loss:	4.3038	Acc:	33.9100
+    > [Stats]	Many:	0.6386	Medium:	0.3074	Few:	0.0267
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [149 | 200]
+    > [Train]	Loss:	4.3707
+    > [Test ]	Loss:	4.3175	Acc:	32.1200
+    > [Stats]	Many:	0.6023	Medium:	0.2994	Few:	0.0187
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [150 | 200]
+    > [Train]	Loss:	4.3587
+    > [Test ]	Loss:	4.3049	Acc:	33.5300
+    > [Stats]	Many:	0.6420	Medium:	0.2966	Few:	0.0227
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [151 | 200]
+    > [Train]	Loss:	4.4329
+    > [Test ]	Loss:	4.3047	Acc:	33.6300
+    > [Stats]	Many:	0.6211	Medium:	0.3146	Few:	0.0293
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [152 | 200]
+    > [Train]	Loss:	4.3867
+    > [Test ]	Loss:	4.2948	Acc:	34.3900
+    > [Stats]	Many:	0.6234	Medium:	0.3269	Few:	0.0377
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [153 | 200]
+    > [Train]	Loss:	4.4040
+    > [Test ]	Loss:	4.3225	Acc:	31.5200
+    > [Stats]	Many:	0.5794	Medium:	0.3043	Few:	0.0197
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [154 | 200]
+    > [Train]	Loss:	4.3054
+    > [Test ]	Loss:	4.3159	Acc:	33.3600
+    > [Stats]	Many:	0.6466	Medium:	0.2894	Few:	0.0200
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [155 | 200]
+    > [Train]	Loss:	4.3906
+    > [Test ]	Loss:	4.3116	Acc:	34.2400
+    > [Stats]	Many:	0.6537	Medium:	0.3083	Few:	0.0190
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [156 | 200]
+    > [Train]	Loss:	4.3248
+    > [Test ]	Loss:	4.3141	Acc:	34.1400
+    > [Stats]	Many:	0.6600	Medium:	0.2834	Few:	0.0373
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [157 | 200]
+    > [Train]	Loss:	4.3722
+    > [Test ]	Loss:	4.3273	Acc:	30.9200
+    > [Stats]	Many:	0.6131	Medium:	0.2449	Few:	0.0297
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [158 | 200]
+    > [Train]	Loss:	4.3839
+    > [Test ]	Loss:	4.3161	Acc:	32.4600
+    > [Stats]	Many:	0.6409	Medium:	0.2666	Few:	0.0233
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [159 | 200]
+    > [Train]	Loss:	4.3141
+    > [Test ]	Loss:	4.3064	Acc:	34.3700
+    > [Stats]	Many:	0.6409	Medium:	0.3229	Few:	0.0213
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [160 | 200]
+    > [Train]	Loss:	4.2773
+    > [Test ]	Loss:	4.3066	Acc:	34.7300
+    > [Stats]	Many:	0.6440	Medium:	0.3271	Few:	0.0247
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [161 | 200]
+    > [Train]	Loss:	8.7532
+    > [Test ]	Loss:	4.2768	Acc:	40.3300
+    > [Stats]	Many:	0.6963	Medium:	0.4049	Few:	0.0597
+    > [Best ]	Acc:	40.3300	Many:	69.6286	Medium:	40.4857	Few:	5.9667
+    > [Param]	LR:	0.00100000
+---> Epoch: [162 | 200]
+    > [Train]	Loss:	8.2218
+    > [Test ]	Loss:	4.2714	Acc:	42.2600
+    > [Stats]	Many:	0.6923	Medium:	0.4346	Few:	0.0940
+    > [Best ]	Acc:	42.2600	Many:	69.2286	Medium:	43.4571	Few:	9.4000
+    > [Param]	LR:	0.00100000
+---> Epoch: [163 | 200]
+    > [Train]	Loss:	7.8208
+    > [Test ]	Loss:	4.2680	Acc:	43.3600
+    > [Stats]	Many:	0.6903	Medium:	0.4469	Few:	0.1187
+    > [Best ]	Acc:	43.3600	Many:	69.0286	Medium:	44.6857	Few:	11.8667
+    > [Param]	LR:	0.00100000
+---> Epoch: [164 | 200]
+    > [Train]	Loss:	7.6247
+    > [Test ]	Loss:	4.2654	Acc:	44.2700
+    > [Stats]	Many:	0.6874	Medium:	0.4591	Few:	0.1380
+    > [Best ]	Acc:	44.2700	Many:	68.7428	Medium:	45.9143	Few:	13.8000
+    > [Param]	LR:	0.00100000
+---> Epoch: [165 | 200]
+    > [Train]	Loss:	7.3565
+    > [Test ]	Loss:	4.2634	Acc:	44.9000
+    > [Stats]	Many:	0.6834	Medium:	0.4614	Few:	0.1610
+    > [Best ]	Acc:	44.9000	Many:	68.3429	Medium:	46.1429	Few:	16.1000
+    > [Param]	LR:	0.00100000
+---> Epoch: [166 | 200]
+    > [Train]	Loss:	7.3270
+    > [Test ]	Loss:	4.2614	Acc:	45.5500
+    > [Stats]	Many:	0.6860	Medium:	0.4640	Few:	0.1767
+    > [Best ]	Acc:	45.5500	Many:	68.6000	Medium:	46.4000	Few:	17.6667
+    > [Param]	LR:	0.00100000
+---> Epoch: [167 | 200]
+    > [Train]	Loss:	7.2740
+    > [Test ]	Loss:	4.2602	Acc:	45.6600
+    > [Stats]	Many:	0.6829	Medium:	0.4703	Few:	0.1767
+    > [Best ]	Acc:	45.6600	Many:	68.2857	Medium:	47.0286	Few:	17.6667
+    > [Param]	LR:	0.00100000
+---> Epoch: [168 | 200]
+    > [Train]	Loss:	7.2482
+    > [Test ]	Loss:	4.2592	Acc:	46.0600
+    > [Stats]	Many:	0.6820	Medium:	0.4717	Few:	0.1893
+    > [Best ]	Acc:	46.0600	Many:	68.2000	Medium:	47.1714	Few:	18.9333
+    > [Param]	LR:	0.00100000
+---> Epoch: [169 | 200]
+    > [Train]	Loss:	7.1714
+    > [Test ]	Loss:	4.2578	Acc:	46.0800
+    > [Stats]	Many:	0.6817	Medium:	0.4723	Few:	0.1897
+    > [Best ]	Acc:	46.0800	Many:	68.1714	Medium:	47.2286	Few:	18.9667
+    > [Param]	LR:	0.00100000
+---> Epoch: [170 | 200]
+    > [Train]	Loss:	7.1449
+    > [Test ]	Loss:	4.2568	Acc:	46.3400
+    > [Stats]	Many:	0.6829	Medium:	0.4726	Few:	0.1967
+    > [Best ]	Acc:	46.3400	Many:	68.2857	Medium:	47.2571	Few:	19.6667
+    > [Param]	LR:	0.00100000
+---> Epoch: [171 | 200]
+    > [Train]	Loss:	7.0575
+    > [Test ]	Loss:	4.2559	Acc:	46.5200
+    > [Stats]	Many:	0.6806	Medium:	0.4771	Few:	0.2000
+    > [Best ]	Acc:	46.5200	Many:	68.0571	Medium:	47.7143	Few:	20.0000
+    > [Param]	LR:	0.00100000
+---> Epoch: [172 | 200]
+    > [Train]	Loss:	7.0878
+    > [Test ]	Loss:	4.2552	Acc:	46.3900
+    > [Stats]	Many:	0.6803	Medium:	0.4731	Few:	0.2007
+    > [Best ]	Acc:	46.5200	Many:	68.0571	Medium:	47.7143	Few:	20.0000
+    > [Param]	LR:	0.00100000
+---> Epoch: [173 | 200]
+    > [Train]	Loss:	6.8798
+    > [Test ]	Loss:	4.2546	Acc:	46.5100
+    > [Stats]	Many:	0.6809	Medium:	0.4763	Few:	0.2003
+    > [Best ]	Acc:	46.5200	Many:	68.0571	Medium:	47.7143	Few:	20.0000
+    > [Param]	LR:	0.00100000
+---> Epoch: [174 | 200]
+    > [Train]	Loss:	6.8912
+    > [Test ]	Loss:	4.2533	Acc:	46.6700
+    > [Stats]	Many:	0.6840	Medium:	0.4800	Few:	0.1977
+    > [Best ]	Acc:	46.6700	Many:	68.4000	Medium:	48.0000	Few:	19.7667
+    > [Param]	LR:	0.00100000
+---> Epoch: [175 | 200]
+    > [Train]	Loss:	6.8858
+    > [Test ]	Loss:	4.2527	Acc:	46.7500
+    > [Stats]	Many:	0.6809	Medium:	0.4823	Few:	0.2013
+    > [Best ]	Acc:	46.7500	Many:	68.0857	Medium:	48.2286	Few:	20.1333
+    > [Param]	LR:	0.00100000
+---> Epoch: [176 | 200]
+    > [Train]	Loss:	6.8811
+    > [Test ]	Loss:	4.2520	Acc:	46.9700
+    > [Stats]	Many:	0.6817	Medium:	0.4857	Few:	0.2037
+    > [Best ]	Acc:	46.9700	Many:	68.1714	Medium:	48.5714	Few:	20.3667
+    > [Param]	LR:	0.00100000
+---> Epoch: [177 | 200]
+    > [Train]	Loss:	6.8835
+    > [Test ]	Loss:	4.2516	Acc:	47.1200
+    > [Stats]	Many:	0.6814	Medium:	0.4831	Few:	0.2120
+    > [Best ]	Acc:	47.1200	Many:	68.1429	Medium:	48.3143	Few:	21.2000
+    > [Param]	LR:	0.00100000
+---> Epoch: [178 | 200]
+    > [Train]	Loss:	6.8405
+    > [Test ]	Loss:	4.2513	Acc:	47.0400
+    > [Stats]	Many:	0.6771	Medium:	0.4871	Few:	0.2097
+    > [Best ]	Acc:	47.1200	Many:	68.1429	Medium:	48.3143	Few:	21.2000
+    > [Param]	LR:	0.00100000
+---> Epoch: [179 | 200]
+    > [Train]	Loss:	6.7591
+    > [Test ]	Loss:	4.2511	Acc:	47.0700
+    > [Stats]	Many:	0.6783	Medium:	0.4831	Few:	0.2140
+    > [Best ]	Acc:	47.1200	Many:	68.1429	Medium:	48.3143	Few:	21.2000
+    > [Param]	LR:	0.00100000
+---> Epoch: [180 | 200]
+    > [Train]	Loss:	6.7739
+    > [Test ]	Loss:	4.2513	Acc:	47.1300
+    > [Stats]	Many:	0.6774	Medium:	0.4869	Few:	0.2127
+    > [Best ]	Acc:	47.1300	Many:	67.7429	Medium:	48.6857	Few:	21.2667
+    > [Param]	LR:	0.00100000
+---> Epoch: [181 | 200]
+    > [Train]	Loss:	6.6744
+    > [Test ]	Loss:	4.2521	Acc:	46.9100
+    > [Stats]	Many:	0.6771	Medium:	0.4840	Few:	0.2090
+    > [Best ]	Acc:	47.1300	Many:	67.7429	Medium:	48.6857	Few:	21.2667
+    > [Param]	LR:	0.00001000
+---> Epoch: [182 | 200]
+    > [Train]	Loss:	6.6628
+    > [Test ]	Loss:	4.2515	Acc:	46.9100
+    > [Stats]	Many:	0.6746	Medium:	0.4843	Few:	0.2117
+    > [Best ]	Acc:	47.1300	Many:	67.7429	Medium:	48.6857	Few:	21.2667
+    > [Param]	LR:	0.00001000
+---> Epoch: [183 | 200]
+    > [Train]	Loss:	6.6121
+    > [Test ]	Loss:	4.2513	Acc:	46.9400
+    > [Stats]	Many:	0.6760	Medium:	0.4829	Few:	0.2127
+    > [Best ]	Acc:	47.1300	Many:	67.7429	Medium:	48.6857	Few:	21.2667
+    > [Param]	LR:	0.00001000
+---> Epoch: [184 | 200]
+    > [Train]	Loss:	6.6794
+    > [Test ]	Loss:	4.2513	Acc:	46.9600
+    > [Stats]	Many:	0.6774	Medium:	0.4817	Few:	0.2130
+    > [Best ]	Acc:	47.1300	Many:	67.7429	Medium:	48.6857	Few:	21.2667
+    > [Param]	LR:	0.00001000
+---> Epoch: [185 | 200]
+    > [Train]	Loss:	6.6710
+    > [Test ]	Loss:	4.2508	Acc:	47.1000
+    > [Stats]	Many:	0.6766	Medium:	0.4823	Few:	0.2180
+    > [Best ]	Acc:	47.1300	Many:	67.7429	Medium:	48.6857	Few:	21.2667
+    > [Param]	LR:	0.00001000
+---> Epoch: [186 | 200]
+    > [Train]	Loss:	6.6449
+    > [Test ]	Loss:	4.2510	Acc:	47.1900
+    > [Stats]	Many:	0.6783	Medium:	0.4846	Few:	0.2163
+    > [Best ]	Acc:	47.1900	Many:	67.8286	Medium:	48.4571	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Epoch: [187 | 200]
+    > [Train]	Loss:	6.7464
+    > [Test ]	Loss:	4.2509	Acc:	47.0800
+    > [Stats]	Many:	0.6774	Medium:	0.4834	Few:	0.2150
+    > [Best ]	Acc:	47.1900	Many:	67.8286	Medium:	48.4571	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Epoch: [188 | 200]
+    > [Train]	Loss:	6.6039
+    > [Test ]	Loss:	4.2514	Acc:	47.2000
+    > [Stats]	Many:	0.6777	Medium:	0.4854	Few:	0.2163
+    > [Best ]	Acc:	47.2000	Many:	67.7714	Medium:	48.5429	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Epoch: [189 | 200]
+    > [Train]	Loss:	6.6818
+    > [Test ]	Loss:	4.2508	Acc:	47.0100
+    > [Stats]	Many:	0.6763	Medium:	0.4849	Few:	0.2123
+    > [Best ]	Acc:	47.2000	Many:	67.7714	Medium:	48.5429	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Epoch: [190 | 200]
+    > [Train]	Loss:	6.7115
+    > [Test ]	Loss:	4.2512	Acc:	47.1500
+    > [Stats]	Many:	0.6757	Medium:	0.4854	Few:	0.2170
+    > [Best ]	Acc:	47.2000	Many:	67.7714	Medium:	48.5429	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Epoch: [191 | 200]
+    > [Train]	Loss:	6.6271
+    > [Test ]	Loss:	4.2515	Acc:	47.0600
+    > [Stats]	Many:	0.6771	Medium:	0.4849	Few:	0.2130
+    > [Best ]	Acc:	47.2000	Many:	67.7714	Medium:	48.5429	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Epoch: [192 | 200]
+    > [Train]	Loss:	6.5893
+    > [Test ]	Loss:	4.2511	Acc:	47.0800
+    > [Stats]	Many:	0.6789	Medium:	0.4826	Few:	0.2143
+    > [Best ]	Acc:	47.2000	Many:	67.7714	Medium:	48.5429	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Epoch: [193 | 200]
+    > [Train]	Loss:	6.6624
+    > [Test ]	Loss:	4.2511	Acc:	47.1800
+    > [Stats]	Many:	0.6774	Medium:	0.4854	Few:	0.2160
+    > [Best ]	Acc:	47.2000	Many:	67.7714	Medium:	48.5429	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Epoch: [194 | 200]
+    > [Train]	Loss:	6.6242
+    > [Test ]	Loss:	4.2509	Acc:	46.9800
+    > [Stats]	Many:	0.6766	Medium:	0.4851	Few:	0.2107
+    > [Best ]	Acc:	47.2000	Many:	67.7714	Medium:	48.5429	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Epoch: [195 | 200]
+    > [Train]	Loss:	6.6403
+    > [Test ]	Loss:	4.2511	Acc:	47.1100
+    > [Stats]	Many:	0.6760	Medium:	0.4857	Few:	0.2150
+    > [Best ]	Acc:	47.2000	Many:	67.7714	Medium:	48.5429	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Epoch: [196 | 200]
+    > [Train]	Loss:	6.7335
+    > [Test ]	Loss:	4.2508	Acc:	47.0300
+    > [Stats]	Many:	0.6777	Medium:	0.4820	Few:	0.2147
+    > [Best ]	Acc:	47.2000	Many:	67.7714	Medium:	48.5429	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Epoch: [197 | 200]
+    > [Train]	Loss:	6.6602
+    > [Test ]	Loss:	4.2515	Acc:	47.0000
+    > [Stats]	Many:	0.6777	Medium:	0.4840	Few:	0.2113
+    > [Best ]	Acc:	47.2000	Many:	67.7714	Medium:	48.5429	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Epoch: [198 | 200]
+    > [Train]	Loss:	6.5800
+    > [Test ]	Loss:	4.2511	Acc:	46.9900
+    > [Stats]	Many:	0.6777	Medium:	0.4826	Few:	0.2127
+    > [Best ]	Acc:	47.2000	Many:	67.7714	Medium:	48.5429	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Epoch: [199 | 200]
+    > [Train]	Loss:	6.5421
+    > [Test ]	Loss:	4.2507	Acc:	46.9900
+    > [Stats]	Many:	0.6777	Medium:	0.4837	Few:	0.2113
+    > [Best ]	Acc:	47.2000	Many:	67.7714	Medium:	48.5429	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Epoch: [200 | 200]
+    > [Train]	Loss:	6.6864
+    > [Test ]	Loss:	4.2507	Acc:	47.0800
+    > [Stats]	Many:	0.6774	Medium:	0.4840	Few:	0.2143
+    > [Best ]	Acc:	47.2000	Many:	67.7714	Medium:	48.5429	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Final performance...
+    > best bAcc (test):	47.2
+    > best statistics:	Many:	0.6777143478393555	Med:	0.4854285717010498	Few:	0.21633334457874298
+---> Training Time: 0:16:28.96
+---> ---cifar100---
+---> Argument
+    > network     : resnet32
+    > epochs      : 200
+    > batch_size  : 128
+    > update_epoch: 1
+    > lr          : 0.1
+    > lr_decay    : 0.01
+    > momentum    : 0.9
+    > wd          : 0.0002
+    > nesterov    : False
+    > scheduler   : warmup
+    > warmup      : 5
+    > aug_prob    : 0.5
+    > cutout      : False
+    > cmo         : False
+    > posthoc_la  : False
+    > cuda        : False
+    > aug_type    : autoaug_cifar
+    > sim_type    : none
+    > max_d       : 30
+    > num_test    : 10
+    > accept_rate : 0.6
+    > verbose     : False
+    > use_norm    : False
+    > out         : /kaggle/working/log1
+    > data_dir    : ~/dataset/
+    > workers     : 4
+    > seed        : 5
+    > gpu         : 0
+    > dataset     : cifar100
+    > num_max     : 500
+    > imb_ratio   : 100
+    > loss_fn     : ldam_drw
+    > num_experts : 3
+    > ride_distill: False
+    > num_class   : 100
+---> Epoch: [1 | 200]
+    > [Train]	Loss:	10.7590
+    > [Test ]	Loss:	4.5819	Acc:	4.7900
+    > [Stats]	Many:	0.1366	Medium:	0.0003	Few:	0.0000
+    > [Best ]	Acc:	4.7900	Many:	13.6571	Medium:	0.0286	Few:	0.0000
+    > [Param]	LR:	0.02000000
+---> Epoch: [2 | 200]
+    > [Train]	Loss:	10.2643
+    > [Test ]	Loss:	4.5706	Acc:	4.7900
+    > [Stats]	Many:	0.1297	Medium:	0.0071	Few:	0.0000
+    > [Best ]	Acc:	4.7900	Many:	12.9714	Medium:	0.7143	Few:	0.0000
+    > [Param]	LR:	0.04000000
+---> Epoch: [3 | 200]
+    > [Train]	Loss:	10.1323
+    > [Test ]	Loss:	4.5621	Acc:	7.3200
+    > [Stats]	Many:	0.2023	Medium:	0.0069	Few:	0.0000
+    > [Best ]	Acc:	7.3200	Many:	20.2286	Medium:	0.6857	Few:	0.0000
+    > [Param]	LR:	0.06000000
+---> Epoch: [4 | 200]
+    > [Train]	Loss:	9.8953
+    > [Test ]	Loss:	4.5493	Acc:	8.4400
+    > [Stats]	Many:	0.2097	Medium:	0.0314	Few:	0.0000
+    > [Best ]	Acc:	8.4400	Many:	20.9714	Medium:	3.1429	Few:	0.0000
+    > [Param]	LR:	0.08000000
+---> Epoch: [5 | 200]
+    > [Train]	Loss:	9.7528
+    > [Test ]	Loss:	4.5438	Acc:	7.3700
+    > [Stats]	Many:	0.2017	Medium:	0.0051	Few:	0.0043
+    > [Best ]	Acc:	8.4400	Many:	20.9714	Medium:	3.1429	Few:	0.0000
+    > [Param]	LR:	0.10000000
+---> Epoch: [6 | 200]
+    > [Train]	Loss:	9.5065
+    > [Test ]	Loss:	4.5292	Acc:	10.3500
+    > [Stats]	Many:	0.2434	Medium:	0.0523	Few:	0.0000
+    > [Best ]	Acc:	10.3500	Many:	24.3429	Medium:	5.2286	Few:	0.0000
+    > [Param]	LR:	0.10000000
+---> Epoch: [7 | 200]
+    > [Train]	Loss:	9.2975
+    > [Test ]	Loss:	4.5223	Acc:	10.3000
+    > [Stats]	Many:	0.2577	Medium:	0.0363	Few:	0.0003
+    > [Best ]	Acc:	10.3500	Many:	24.3429	Medium:	5.2286	Few:	0.0000
+    > [Param]	LR:	0.10000000
+---> Epoch: [8 | 200]
+    > [Train]	Loss:	9.1632
+    > [Test ]	Loss:	4.5097	Acc:	12.2100
+    > [Stats]	Many:	0.2966	Medium:	0.0497	Few:	0.0030
+    > [Best ]	Acc:	12.2100	Many:	29.6571	Medium:	4.9714	Few:	0.3000
+    > [Param]	LR:	0.10000000
+---> Epoch: [9 | 200]
+    > [Train]	Loss:	8.9343
+    > [Test ]	Loss:	4.5060	Acc:	11.8800
+    > [Stats]	Many:	0.2717	Medium:	0.0677	Few:	0.0000
+    > [Best ]	Acc:	12.2100	Many:	29.6571	Medium:	4.9714	Few:	0.3000
+    > [Param]	LR:	0.10000000
+---> Epoch: [10 | 200]
+    > [Train]	Loss:	8.7743
+    > [Test ]	Loss:	4.4970	Acc:	12.1200
+    > [Stats]	Many:	0.2763	Medium:	0.0634	Few:	0.0077
+    > [Best ]	Acc:	12.2100	Many:	29.6571	Medium:	4.9714	Few:	0.3000
+    > [Param]	LR:	0.10000000
+---> Epoch: [11 | 200]
+    > [Train]	Loss:	8.6297
+    > [Test ]	Loss:	4.4941	Acc:	12.3600
+    > [Stats]	Many:	0.2854	Medium:	0.0637	Few:	0.0047
+    > [Best ]	Acc:	12.3600	Many:	28.5429	Medium:	6.3714	Few:	0.4667
+    > [Param]	LR:	0.10000000
+---> Epoch: [12 | 200]
+    > [Train]	Loss:	8.4584
+    > [Test ]	Loss:	4.4789	Acc:	12.0500
+    > [Stats]	Many:	0.3026	Medium:	0.0389	Few:	0.0033
+    > [Best ]	Acc:	12.3600	Many:	28.5429	Medium:	6.3714	Few:	0.4667
+    > [Param]	LR:	0.10000000
+---> Epoch: [13 | 200]
+    > [Train]	Loss:	8.3740
+    > [Test ]	Loss:	4.4719	Acc:	14.5200
+    > [Stats]	Many:	0.3569	Medium:	0.0557	Few:	0.0027
+    > [Best ]	Acc:	14.5200	Many:	35.6857	Medium:	5.5714	Few:	0.2667
+    > [Param]	LR:	0.10000000
+---> Epoch: [14 | 200]
+    > [Train]	Loss:	8.2337
+    > [Test ]	Loss:	4.4671	Acc:	17.0100
+    > [Stats]	Many:	0.4117	Medium:	0.0731	Few:	0.0013
+    > [Best ]	Acc:	17.0100	Many:	41.1714	Medium:	7.3143	Few:	0.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [15 | 200]
+    > [Train]	Loss:	8.0727
+    > [Test ]	Loss:	4.4780	Acc:	13.9100
+    > [Stats]	Many:	0.3283	Medium:	0.0649	Few:	0.0050
+    > [Best ]	Acc:	17.0100	Many:	41.1714	Medium:	7.3143	Few:	0.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [16 | 200]
+    > [Train]	Loss:	7.9538
+    > [Test ]	Loss:	4.4643	Acc:	16.7900
+    > [Stats]	Many:	0.4014	Medium:	0.0769	Few:	0.0017
+    > [Best ]	Acc:	17.0100	Many:	41.1714	Medium:	7.3143	Few:	0.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [17 | 200]
+    > [Train]	Loss:	7.8597
+    > [Test ]	Loss:	4.4482	Acc:	17.8200
+    > [Stats]	Many:	0.4094	Medium:	0.0966	Few:	0.0037
+    > [Best ]	Acc:	17.8200	Many:	40.9429	Medium:	9.6571	Few:	0.3667
+    > [Param]	LR:	0.10000000
+---> Epoch: [18 | 200]
+    > [Train]	Loss:	7.7090
+    > [Test ]	Loss:	4.4459	Acc:	18.8000
+    > [Stats]	Many:	0.4471	Medium:	0.0786	Few:	0.0133
+    > [Best ]	Acc:	18.8000	Many:	44.7143	Medium:	7.8571	Few:	1.3333
+    > [Param]	LR:	0.10000000
+---> Epoch: [19 | 200]
+    > [Train]	Loss:	7.6435
+    > [Test ]	Loss:	4.4502	Acc:	18.0000
+    > [Stats]	Many:	0.4311	Medium:	0.0814	Few:	0.0020
+    > [Best ]	Acc:	18.8000	Many:	44.7143	Medium:	7.8571	Few:	1.3333
+    > [Param]	LR:	0.10000000
+---> Epoch: [20 | 200]
+    > [Train]	Loss:	7.5082
+    > [Test ]	Loss:	4.4303	Acc:	20.0000
+    > [Stats]	Many:	0.4580	Medium:	0.1054	Few:	0.0093
+    > [Best ]	Acc:	20.0000	Many:	45.8000	Medium:	10.5429	Few:	0.9333
+    > [Param]	LR:	0.10000000
+---> Epoch: [21 | 200]
+    > [Train]	Loss:	7.4163
+    > [Test ]	Loss:	4.4391	Acc:	19.6400
+    > [Stats]	Many:	0.4514	Medium:	0.1034	Few:	0.0073
+    > [Best ]	Acc:	20.0000	Many:	45.8000	Medium:	10.5429	Few:	0.9333
+    > [Param]	LR:	0.10000000
+---> Epoch: [22 | 200]
+    > [Train]	Loss:	7.3339
+    > [Test ]	Loss:	4.4297	Acc:	20.9100
+    > [Stats]	Many:	0.4911	Medium:	0.1003	Few:	0.0070
+    > [Best ]	Acc:	20.9100	Many:	49.1143	Medium:	10.0286	Few:	0.7000
+    > [Param]	LR:	0.10000000
+---> Epoch: [23 | 200]
+    > [Train]	Loss:	7.1854
+    > [Test ]	Loss:	4.4155	Acc:	21.8600
+    > [Stats]	Many:	0.4966	Medium:	0.1171	Few:	0.0127
+    > [Best ]	Acc:	21.8600	Many:	49.6571	Medium:	11.7143	Few:	1.2667
+    > [Param]	LR:	0.10000000
+---> Epoch: [24 | 200]
+    > [Train]	Loss:	7.1825
+    > [Test ]	Loss:	4.4203	Acc:	19.7700
+    > [Stats]	Many:	0.4426	Medium:	0.1163	Few:	0.0070
+    > [Best ]	Acc:	21.8600	Many:	49.6571	Medium:	11.7143	Few:	1.2667
+    > [Param]	LR:	0.10000000
+---> Epoch: [25 | 200]
+    > [Train]	Loss:	7.0515
+    > [Test ]	Loss:	4.4299	Acc:	18.9700
+    > [Stats]	Many:	0.4369	Medium:	0.1023	Few:	0.0033
+    > [Best ]	Acc:	21.8600	Many:	49.6571	Medium:	11.7143	Few:	1.2667
+    > [Param]	LR:	0.10000000
+---> Epoch: [26 | 200]
+    > [Train]	Loss:	6.9736
+    > [Test ]	Loss:	4.4006	Acc:	22.6700
+    > [Stats]	Many:	0.5049	Medium:	0.1363	Few:	0.0077
+    > [Best ]	Acc:	22.6700	Many:	50.4857	Medium:	13.6286	Few:	0.7667
+    > [Param]	LR:	0.10000000
+---> Epoch: [27 | 200]
+    > [Train]	Loss:	6.9342
+    > [Test ]	Loss:	4.4248	Acc:	19.6400
+    > [Stats]	Many:	0.4389	Medium:	0.1180	Few:	0.0050
+    > [Best ]	Acc:	22.6700	Many:	50.4857	Medium:	13.6286	Few:	0.7667
+    > [Param]	LR:	0.10000000
+---> Epoch: [28 | 200]
+    > [Train]	Loss:	6.7836
+    > [Test ]	Loss:	4.3943	Acc:	22.6100
+    > [Stats]	Many:	0.5037	Medium:	0.1294	Few:	0.0150
+    > [Best ]	Acc:	22.6700	Many:	50.4857	Medium:	13.6286	Few:	0.7667
+    > [Param]	LR:	0.10000000
+---> Epoch: [29 | 200]
+    > [Train]	Loss:	6.7284
+    > [Test ]	Loss:	4.4140	Acc:	22.1300
+    > [Stats]	Many:	0.5111	Medium:	0.1163	Few:	0.0057
+    > [Best ]	Acc:	22.6700	Many:	50.4857	Medium:	13.6286	Few:	0.7667
+    > [Param]	LR:	0.10000000
+---> Epoch: [30 | 200]
+    > [Train]	Loss:	6.6702
+    > [Test ]	Loss:	4.4211	Acc:	18.0400
+    > [Stats]	Many:	0.4314	Medium:	0.0797	Few:	0.0050
+    > [Best ]	Acc:	22.6700	Many:	50.4857	Medium:	13.6286	Few:	0.7667
+    > [Param]	LR:	0.10000000
+---> Epoch: [31 | 200]
+    > [Train]	Loss:	6.6826
+    > [Test ]	Loss:	4.3905	Acc:	25.0200
+    > [Stats]	Many:	0.5357	Medium:	0.1691	Few:	0.0117
+    > [Best ]	Acc:	25.0200	Many:	53.5714	Medium:	16.9143	Few:	1.1667
+    > [Param]	LR:	0.10000000
+---> Epoch: [32 | 200]
+    > [Train]	Loss:	6.5571
+    > [Test ]	Loss:	4.3987	Acc:	23.3500
+    > [Stats]	Many:	0.5214	Medium:	0.1391	Few:	0.0077
+    > [Best ]	Acc:	25.0200	Many:	53.5714	Medium:	16.9143	Few:	1.1667
+    > [Param]	LR:	0.10000000
+---> Epoch: [33 | 200]
+    > [Train]	Loss:	6.5217
+    > [Test ]	Loss:	4.3822	Acc:	24.5300
+    > [Stats]	Many:	0.5446	Medium:	0.1509	Few:	0.0063
+    > [Best ]	Acc:	25.0200	Many:	53.5714	Medium:	16.9143	Few:	1.1667
+    > [Param]	LR:	0.10000000
+---> Epoch: [34 | 200]
+    > [Train]	Loss:	6.4632
+    > [Test ]	Loss:	4.3870	Acc:	27.3800
+    > [Stats]	Many:	0.5766	Medium:	0.1891	Few:	0.0193
+    > [Best ]	Acc:	27.3800	Many:	57.6571	Medium:	18.9143	Few:	1.9333
+    > [Param]	LR:	0.10000000
+---> Epoch: [35 | 200]
+    > [Train]	Loss:	6.3678
+    > [Test ]	Loss:	4.3884	Acc:	24.1400
+    > [Stats]	Many:	0.5240	Medium:	0.1491	Few:	0.0193
+    > [Best ]	Acc:	27.3800	Many:	57.6571	Medium:	18.9143	Few:	1.9333
+    > [Param]	LR:	0.10000000
+---> Epoch: [36 | 200]
+    > [Train]	Loss:	6.3422
+    > [Test ]	Loss:	4.3789	Acc:	25.8500
+    > [Stats]	Many:	0.5477	Medium:	0.1820	Few:	0.0103
+    > [Best ]	Acc:	27.3800	Many:	57.6571	Medium:	18.9143	Few:	1.9333
+    > [Param]	LR:	0.10000000
+---> Epoch: [37 | 200]
+    > [Train]	Loss:	6.3301
+    > [Test ]	Loss:	4.3901	Acc:	24.7000
+    > [Stats]	Many:	0.5183	Medium:	0.1726	Few:	0.0173
+    > [Best ]	Acc:	27.3800	Many:	57.6571	Medium:	18.9143	Few:	1.9333
+    > [Param]	LR:	0.10000000
+---> Epoch: [38 | 200]
+    > [Train]	Loss:	6.3185
+    > [Test ]	Loss:	4.3850	Acc:	26.2300
+    > [Stats]	Many:	0.5760	Medium:	0.1583	Few:	0.0177
+    > [Best ]	Acc:	27.3800	Many:	57.6571	Medium:	18.9143	Few:	1.9333
+    > [Param]	LR:	0.10000000
+---> Epoch: [39 | 200]
+    > [Train]	Loss:	6.2221
+    > [Test ]	Loss:	4.3944	Acc:	23.4800
+    > [Stats]	Many:	0.5043	Medium:	0.1540	Few:	0.0147
+    > [Best ]	Acc:	27.3800	Many:	57.6571	Medium:	18.9143	Few:	1.9333
+    > [Param]	LR:	0.10000000
+---> Epoch: [40 | 200]
+    > [Train]	Loss:	6.2132
+    > [Test ]	Loss:	4.3699	Acc:	27.1300
+    > [Stats]	Many:	0.5717	Medium:	0.1843	Few:	0.0223
+    > [Best ]	Acc:	27.3800	Many:	57.6571	Medium:	18.9143	Few:	1.9333
+    > [Param]	LR:	0.10000000
+---> Epoch: [41 | 200]
+    > [Train]	Loss:	6.1165
+    > [Test ]	Loss:	4.3643	Acc:	29.4800
+    > [Stats]	Many:	0.6051	Medium:	0.2231	Few:	0.0163
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [42 | 200]
+    > [Train]	Loss:	6.0325
+    > [Test ]	Loss:	4.3737	Acc:	27.1000
+    > [Stats]	Many:	0.5557	Medium:	0.2117	Few:	0.0080
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [43 | 200]
+    > [Train]	Loss:	6.0478
+    > [Test ]	Loss:	4.3877	Acc:	24.0300
+    > [Stats]	Many:	0.5057	Medium:	0.1737	Few:	0.0083
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [44 | 200]
+    > [Train]	Loss:	5.9989
+    > [Test ]	Loss:	4.3737	Acc:	26.1200
+    > [Stats]	Many:	0.5631	Medium:	0.1729	Few:	0.0120
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [45 | 200]
+    > [Train]	Loss:	5.9577
+    > [Test ]	Loss:	4.3642	Acc:	26.9200
+    > [Stats]	Many:	0.5491	Medium:	0.1977	Few:	0.0260
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [46 | 200]
+    > [Train]	Loss:	5.8690
+    > [Test ]	Loss:	4.3677	Acc:	26.0000
+    > [Stats]	Many:	0.5503	Medium:	0.1834	Few:	0.0107
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [47 | 200]
+    > [Train]	Loss:	5.9411
+    > [Test ]	Loss:	4.3684	Acc:	28.0000
+    > [Stats]	Many:	0.5589	Medium:	0.2226	Few:	0.0217
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [48 | 200]
+    > [Train]	Loss:	5.7956
+    > [Test ]	Loss:	4.3736	Acc:	26.3100
+    > [Stats]	Many:	0.5554	Medium:	0.1871	Few:	0.0107
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [49 | 200]
+    > [Train]	Loss:	5.8326
+    > [Test ]	Loss:	4.3741	Acc:	27.0700
+    > [Stats]	Many:	0.5566	Medium:	0.2020	Few:	0.0173
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [50 | 200]
+    > [Train]	Loss:	5.8103
+    > [Test ]	Loss:	4.3607	Acc:	28.6300
+    > [Stats]	Many:	0.5917	Medium:	0.2157	Few:	0.0123
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [51 | 200]
+    > [Train]	Loss:	5.7621
+    > [Test ]	Loss:	4.3626	Acc:	28.0900
+    > [Stats]	Many:	0.6134	Medium:	0.1817	Few:	0.0087
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [52 | 200]
+    > [Train]	Loss:	5.7643
+    > [Test ]	Loss:	4.3665	Acc:	28.0200
+    > [Stats]	Many:	0.5877	Medium:	0.1920	Few:	0.0243
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [53 | 200]
+    > [Train]	Loss:	5.6489
+    > [Test ]	Loss:	4.3550	Acc:	29.1100
+    > [Stats]	Many:	0.5963	Medium:	0.2214	Few:	0.0163
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [54 | 200]
+    > [Train]	Loss:	5.6301
+    > [Test ]	Loss:	4.3601	Acc:	28.6100
+    > [Stats]	Many:	0.6009	Medium:	0.2031	Few:	0.0157
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [55 | 200]
+    > [Train]	Loss:	5.6031
+    > [Test ]	Loss:	4.3596	Acc:	27.9700
+    > [Stats]	Many:	0.5814	Medium:	0.2054	Few:	0.0143
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [56 | 200]
+    > [Train]	Loss:	5.6314
+    > [Test ]	Loss:	4.3674	Acc:	26.2800
+    > [Stats]	Many:	0.5466	Medium:	0.1886	Few:	0.0183
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [57 | 200]
+    > [Train]	Loss:	5.6065
+    > [Test ]	Loss:	4.3523	Acc:	29.1300
+    > [Stats]	Many:	0.6043	Medium:	0.2091	Few:	0.0220
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [58 | 200]
+    > [Train]	Loss:	5.5501
+    > [Test ]	Loss:	4.3456	Acc:	30.0900
+    > [Stats]	Many:	0.6034	Medium:	0.2386	Few:	0.0207
+    > [Best ]	Acc:	30.0900	Many:	60.3429	Medium:	23.8571	Few:	2.0667
+    > [Param]	LR:	0.10000000
+---> Epoch: [59 | 200]
+    > [Train]	Loss:	5.4986
+    > [Test ]	Loss:	4.3407	Acc:	31.7200
+    > [Stats]	Many:	0.5903	Medium:	0.2969	Few:	0.0223
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [60 | 200]
+    > [Train]	Loss:	5.4558
+    > [Test ]	Loss:	4.3500	Acc:	27.8100
+    > [Stats]	Many:	0.5711	Medium:	0.2006	Few:	0.0267
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [61 | 200]
+    > [Train]	Loss:	5.4417
+    > [Test ]	Loss:	4.3522	Acc:	28.0900
+    > [Stats]	Many:	0.5994	Medium:	0.1943	Few:	0.0103
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [62 | 200]
+    > [Train]	Loss:	5.4651
+    > [Test ]	Loss:	4.3485	Acc:	28.9800
+    > [Stats]	Many:	0.5943	Medium:	0.2200	Few:	0.0160
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [63 | 200]
+    > [Train]	Loss:	5.4146
+    > [Test ]	Loss:	4.3460	Acc:	28.7400
+    > [Stats]	Many:	0.5911	Medium:	0.2240	Few:	0.0070
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [64 | 200]
+    > [Train]	Loss:	5.3708
+    > [Test ]	Loss:	4.3443	Acc:	30.1200
+    > [Stats]	Many:	0.5900	Medium:	0.2549	Few:	0.0183
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [65 | 200]
+    > [Train]	Loss:	5.3604
+    > [Test ]	Loss:	4.3485	Acc:	29.4100
+    > [Stats]	Many:	0.5917	Medium:	0.2391	Few:	0.0110
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [66 | 200]
+    > [Train]	Loss:	5.3458
+    > [Test ]	Loss:	4.3445	Acc:	30.6800
+    > [Stats]	Many:	0.6049	Medium:	0.2583	Few:	0.0157
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [67 | 200]
+    > [Train]	Loss:	5.3068
+    > [Test ]	Loss:	4.3412	Acc:	30.2600
+    > [Stats]	Many:	0.6051	Medium:	0.2451	Few:	0.0167
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [68 | 200]
+    > [Train]	Loss:	5.2430
+    > [Test ]	Loss:	4.3438	Acc:	28.6100
+    > [Stats]	Many:	0.5780	Medium:	0.2346	Few:	0.0057
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [69 | 200]
+    > [Train]	Loss:	5.2894
+    > [Test ]	Loss:	4.3389	Acc:	30.7000
+    > [Stats]	Many:	0.6103	Medium:	0.2603	Few:	0.0077
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [70 | 200]
+    > [Train]	Loss:	5.2130
+    > [Test ]	Loss:	4.3750	Acc:	25.1500
+    > [Stats]	Many:	0.5177	Medium:	0.1920	Few:	0.0103
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [71 | 200]
+    > [Train]	Loss:	5.2247
+    > [Test ]	Loss:	4.3459	Acc:	30.4700
+    > [Stats]	Many:	0.6080	Medium:	0.2400	Few:	0.0263
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [72 | 200]
+    > [Train]	Loss:	5.2196
+    > [Test ]	Loss:	4.3421	Acc:	29.1700
+    > [Stats]	Many:	0.5766	Medium:	0.2386	Few:	0.0213
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [73 | 200]
+    > [Train]	Loss:	5.1611
+    > [Test ]	Loss:	4.3392	Acc:	30.9400
+    > [Stats]	Many:	0.5826	Medium:	0.2891	Few:	0.0143
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [74 | 200]
+    > [Train]	Loss:	5.2076
+    > [Test ]	Loss:	4.3412	Acc:	30.7600
+    > [Stats]	Many:	0.5954	Medium:	0.2506	Few:	0.0383
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [75 | 200]
+    > [Train]	Loss:	5.1663
+    > [Test ]	Loss:	4.3512	Acc:	27.6400
+    > [Stats]	Many:	0.5643	Medium:	0.2034	Few:	0.0257
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [76 | 200]
+    > [Train]	Loss:	5.1245
+    > [Test ]	Loss:	4.3278	Acc:	31.3900
+    > [Stats]	Many:	0.5997	Medium:	0.2829	Few:	0.0167
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [77 | 200]
+    > [Train]	Loss:	5.0775
+    > [Test ]	Loss:	4.3263	Acc:	32.1300
+    > [Stats]	Many:	0.6189	Medium:	0.2840	Few:	0.0177
+    > [Best ]	Acc:	32.1300	Many:	61.8857	Medium:	28.4000	Few:	1.7667
+    > [Param]	LR:	0.10000000
+---> Epoch: [78 | 200]
+    > [Train]	Loss:	5.1397
+    > [Test ]	Loss:	4.3348	Acc:	30.9400
+    > [Stats]	Many:	0.5923	Medium:	0.2729	Few:	0.0220
+    > [Best ]	Acc:	32.1300	Many:	61.8857	Medium:	28.4000	Few:	1.7667
+    > [Param]	LR:	0.10000000
+---> Epoch: [79 | 200]
+    > [Train]	Loss:	5.1304
+    > [Test ]	Loss:	4.3368	Acc:	28.9700
+    > [Stats]	Many:	0.5680	Medium:	0.2506	Few:	0.0107
+    > [Best ]	Acc:	32.1300	Many:	61.8857	Medium:	28.4000	Few:	1.7667
+    > [Param]	LR:	0.10000000
+---> Epoch: [80 | 200]
+    > [Train]	Loss:	5.0767
+    > [Test ]	Loss:	4.3331	Acc:	32.4000
+    > [Stats]	Many:	0.6206	Medium:	0.2954	Few:	0.0113
+    > [Best ]	Acc:	32.4000	Many:	62.0571	Medium:	29.5429	Few:	1.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [81 | 200]
+    > [Train]	Loss:	5.0053
+    > [Test ]	Loss:	4.3375	Acc:	29.8300
+    > [Stats]	Many:	0.5709	Medium:	0.2657	Few:	0.0183
+    > [Best ]	Acc:	32.4000	Many:	62.0571	Medium:	29.5429	Few:	1.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [82 | 200]
+    > [Train]	Loss:	5.0393
+    > [Test ]	Loss:	4.3360	Acc:	29.2900
+    > [Stats]	Many:	0.5729	Medium:	0.2437	Few:	0.0237
+    > [Best ]	Acc:	32.4000	Many:	62.0571	Medium:	29.5429	Few:	1.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [83 | 200]
+    > [Train]	Loss:	5.0972
+    > [Test ]	Loss:	4.3363	Acc:	29.9000
+    > [Stats]	Many:	0.6254	Medium:	0.2186	Few:	0.0120
+    > [Best ]	Acc:	32.4000	Many:	62.0571	Medium:	29.5429	Few:	1.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [84 | 200]
+    > [Train]	Loss:	5.0051
+    > [Test ]	Loss:	4.3368	Acc:	30.6600
+    > [Stats]	Many:	0.5937	Medium:	0.2657	Few:	0.0193
+    > [Best ]	Acc:	32.4000	Many:	62.0571	Medium:	29.5429	Few:	1.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [85 | 200]
+    > [Train]	Loss:	4.9901
+    > [Test ]	Loss:	4.3451	Acc:	29.1400
+    > [Stats]	Many:	0.5669	Medium:	0.2503	Few:	0.0180
+    > [Best ]	Acc:	32.4000	Many:	62.0571	Medium:	29.5429	Few:	1.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [86 | 200]
+    > [Train]	Loss:	5.0036
+    > [Test ]	Loss:	4.3308	Acc:	32.2800
+    > [Stats]	Many:	0.6314	Medium:	0.2749	Few:	0.0187
+    > [Best ]	Acc:	32.4000	Many:	62.0571	Medium:	29.5429	Few:	1.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [87 | 200]
+    > [Train]	Loss:	4.9044
+    > [Test ]	Loss:	4.3283	Acc:	32.9700
+    > [Stats]	Many:	0.6260	Medium:	0.2971	Few:	0.0220
+    > [Best ]	Acc:	32.9700	Many:	62.6000	Medium:	29.7143	Few:	2.2000
+    > [Param]	LR:	0.10000000
+---> Epoch: [88 | 200]
+    > [Train]	Loss:	4.9628
+    > [Test ]	Loss:	4.3422	Acc:	27.8700
+    > [Stats]	Many:	0.5380	Medium:	0.2383	Few:	0.0233
+    > [Best ]	Acc:	32.9700	Many:	62.6000	Medium:	29.7143	Few:	2.2000
+    > [Param]	LR:	0.10000000
+---> Epoch: [89 | 200]
+    > [Train]	Loss:	4.8964
+    > [Test ]	Loss:	4.3216	Acc:	32.6200
+    > [Stats]	Many:	0.6166	Medium:	0.3014	Few:	0.0163
+    > [Best ]	Acc:	32.9700	Many:	62.6000	Medium:	29.7143	Few:	2.2000
+    > [Param]	LR:	0.10000000
+---> Epoch: [90 | 200]
+    > [Train]	Loss:	4.8567
+    > [Test ]	Loss:	4.3237	Acc:	30.3600
+    > [Stats]	Many:	0.6000	Medium:	0.2491	Few:	0.0213
+    > [Best ]	Acc:	32.9700	Many:	62.6000	Medium:	29.7143	Few:	2.2000
+    > [Param]	LR:	0.10000000
+---> Epoch: [91 | 200]
+    > [Train]	Loss:	4.8876
+    > [Test ]	Loss:	4.3339	Acc:	31.2300
+    > [Stats]	Many:	0.5963	Medium:	0.2820	Few:	0.0163
+    > [Best ]	Acc:	32.9700	Many:	62.6000	Medium:	29.7143	Few:	2.2000
+    > [Param]	LR:	0.10000000
+---> Epoch: [92 | 200]
+    > [Train]	Loss:	4.9075
+    > [Test ]	Loss:	4.3298	Acc:	31.8700
+    > [Stats]	Many:	0.5957	Medium:	0.2889	Few:	0.0303
+    > [Best ]	Acc:	32.9700	Many:	62.6000	Medium:	29.7143	Few:	2.2000
+    > [Param]	LR:	0.10000000
+---> Epoch: [93 | 200]
+    > [Train]	Loss:	4.8771
+    > [Test ]	Loss:	4.3168	Acc:	33.6000
+    > [Stats]	Many:	0.6203	Medium:	0.3214	Few:	0.0213
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [94 | 200]
+    > [Train]	Loss:	4.8216
+    > [Test ]	Loss:	4.3352	Acc:	31.1600
+    > [Stats]	Many:	0.6143	Medium:	0.2623	Few:	0.0160
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [95 | 200]
+    > [Train]	Loss:	4.8810
+    > [Test ]	Loss:	4.3267	Acc:	31.3300
+    > [Stats]	Many:	0.6371	Medium:	0.2431	Few:	0.0173
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [96 | 200]
+    > [Train]	Loss:	4.8535
+    > [Test ]	Loss:	4.3246	Acc:	31.6200
+    > [Stats]	Many:	0.6054	Medium:	0.2829	Few:	0.0177
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [97 | 200]
+    > [Train]	Loss:	4.8146
+    > [Test ]	Loss:	4.3250	Acc:	32.1100
+    > [Stats]	Many:	0.5814	Medium:	0.3197	Few:	0.0190
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [98 | 200]
+    > [Train]	Loss:	4.8319
+    > [Test ]	Loss:	4.3231	Acc:	33.5000
+    > [Stats]	Many:	0.6423	Medium:	0.2920	Few:	0.0267
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [99 | 200]
+    > [Train]	Loss:	4.8458
+    > [Test ]	Loss:	4.3246	Acc:	31.8900
+    > [Stats]	Many:	0.5960	Medium:	0.3031	Few:	0.0140
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [100 | 200]
+    > [Train]	Loss:	4.8000
+    > [Test ]	Loss:	4.3427	Acc:	30.6800
+    > [Stats]	Many:	0.5706	Medium:	0.2894	Few:	0.0193
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [101 | 200]
+    > [Train]	Loss:	4.7634
+    > [Test ]	Loss:	4.3142	Acc:	31.7400
+    > [Stats]	Many:	0.6106	Medium:	0.2774	Few:	0.0220
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [102 | 200]
+    > [Train]	Loss:	4.8009
+    > [Test ]	Loss:	4.3260	Acc:	31.5400
+    > [Stats]	Many:	0.6120	Medium:	0.2674	Few:	0.0253
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [103 | 200]
+    > [Train]	Loss:	4.7609
+    > [Test ]	Loss:	4.3312	Acc:	29.4000
+    > [Stats]	Many:	0.5629	Medium:	0.2534	Few:	0.0277
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [104 | 200]
+    > [Train]	Loss:	4.8287
+    > [Test ]	Loss:	4.3231	Acc:	32.5400
+    > [Stats]	Many:	0.6231	Medium:	0.2894	Few:	0.0200
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [105 | 200]
+    > [Train]	Loss:	4.6696
+    > [Test ]	Loss:	4.3120	Acc:	33.5100
+    > [Stats]	Many:	0.6494	Medium:	0.2940	Few:	0.0163
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [106 | 200]
+    > [Train]	Loss:	4.6686
+    > [Test ]	Loss:	4.3402	Acc:	30.0600
+    > [Stats]	Many:	0.5597	Medium:	0.2794	Few:	0.0230
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [107 | 200]
+    > [Train]	Loss:	4.7260
+    > [Test ]	Loss:	4.3256	Acc:	31.7000
+    > [Stats]	Many:	0.5960	Medium:	0.2889	Few:	0.0243
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [108 | 200]
+    > [Train]	Loss:	4.7848
+    > [Test ]	Loss:	4.3497	Acc:	26.9300
+    > [Stats]	Many:	0.5577	Medium:	0.2020	Few:	0.0113
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [109 | 200]
+    > [Train]	Loss:	4.7428
+    > [Test ]	Loss:	4.3155	Acc:	31.5900
+    > [Stats]	Many:	0.5903	Medium:	0.2909	Few:	0.0250
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [110 | 200]
+    > [Train]	Loss:	4.6218
+    > [Test ]	Loss:	4.3206	Acc:	33.1900
+    > [Stats]	Many:	0.6291	Medium:	0.2906	Few:	0.0333
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [111 | 200]
+    > [Train]	Loss:	4.6892
+    > [Test ]	Loss:	4.3337	Acc:	32.0100
+    > [Stats]	Many:	0.6069	Medium:	0.2840	Few:	0.0277
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [112 | 200]
+    > [Train]	Loss:	4.6115
+    > [Test ]	Loss:	4.3076	Acc:	35.1000
+    > [Stats]	Many:	0.6694	Medium:	0.3129	Few:	0.0240
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [113 | 200]
+    > [Train]	Loss:	4.6582
+    > [Test ]	Loss:	4.3273	Acc:	32.5300
+    > [Stats]	Many:	0.6171	Medium:	0.2940	Few:	0.0213
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [114 | 200]
+    > [Train]	Loss:	4.6426
+    > [Test ]	Loss:	4.3354	Acc:	30.1400
+    > [Stats]	Many:	0.5754	Medium:	0.2649	Few:	0.0243
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [115 | 200]
+    > [Train]	Loss:	4.6195
+    > [Test ]	Loss:	4.3318	Acc:	29.9500
+    > [Stats]	Many:	0.5700	Medium:	0.2640	Few:	0.0253
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [116 | 200]
+    > [Train]	Loss:	4.7085
+    > [Test ]	Loss:	4.3096	Acc:	34.3000
+    > [Stats]	Many:	0.6269	Medium:	0.3369	Few:	0.0190
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [117 | 200]
+    > [Train]	Loss:	4.5647
+    > [Test ]	Loss:	4.3247	Acc:	32.6600
+    > [Stats]	Many:	0.6077	Medium:	0.3143	Few:	0.0130
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [118 | 200]
+    > [Train]	Loss:	4.5554
+    > [Test ]	Loss:	4.3245	Acc:	32.8600
+    > [Stats]	Many:	0.6209	Medium:	0.2980	Few:	0.0233
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [119 | 200]
+    > [Train]	Loss:	4.6810
+    > [Test ]	Loss:	4.3112	Acc:	33.2100
+    > [Stats]	Many:	0.6434	Medium:	0.2803	Few:	0.0293
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [120 | 200]
+    > [Train]	Loss:	4.6034
+    > [Test ]	Loss:	4.3299	Acc:	31.1500
+    > [Stats]	Many:	0.5851	Medium:	0.2774	Few:	0.0320
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [121 | 200]
+    > [Train]	Loss:	4.5927
+    > [Test ]	Loss:	4.3161	Acc:	32.7700
+    > [Stats]	Many:	0.6280	Medium:	0.2846	Few:	0.0277
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [122 | 200]
+    > [Train]	Loss:	4.6158
+    > [Test ]	Loss:	4.3186	Acc:	33.3000
+    > [Stats]	Many:	0.6380	Medium:	0.3023	Few:	0.0130
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [123 | 200]
+    > [Train]	Loss:	4.5253
+    > [Test ]	Loss:	4.3274	Acc:	30.2900
+    > [Stats]	Many:	0.5871	Medium:	0.2649	Few:	0.0157
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [124 | 200]
+    > [Train]	Loss:	4.5502
+    > [Test ]	Loss:	4.3085	Acc:	33.5400
+    > [Stats]	Many:	0.6371	Medium:	0.3009	Few:	0.0237
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [125 | 200]
+    > [Train]	Loss:	4.5280
+    > [Test ]	Loss:	4.3130	Acc:	33.9500
+    > [Stats]	Many:	0.6071	Medium:	0.3411	Few:	0.0253
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [126 | 200]
+    > [Train]	Loss:	4.5630
+    > [Test ]	Loss:	4.3230	Acc:	32.1800
+    > [Stats]	Many:	0.6009	Medium:	0.2983	Few:	0.0237
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [127 | 200]
+    > [Train]	Loss:	4.5585
+    > [Test ]	Loss:	4.3104	Acc:	34.0400
+    > [Stats]	Many:	0.6180	Medium:	0.3303	Few:	0.0283
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [128 | 200]
+    > [Train]	Loss:	4.5003
+    > [Test ]	Loss:	4.3066	Acc:	33.7500
+    > [Stats]	Many:	0.6417	Medium:	0.3049	Few:	0.0207
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [129 | 200]
+    > [Train]	Loss:	4.5225
+    > [Test ]	Loss:	4.3260	Acc:	30.8200
+    > [Stats]	Many:	0.5860	Medium:	0.2757	Few:	0.0220
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [130 | 200]
+    > [Train]	Loss:	4.3989
+    > [Test ]	Loss:	4.3269	Acc:	32.3900
+    > [Stats]	Many:	0.6071	Medium:	0.3034	Few:	0.0173
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [131 | 200]
+    > [Train]	Loss:	4.5294
+    > [Test ]	Loss:	4.3114	Acc:	33.8600
+    > [Stats]	Many:	0.6171	Medium:	0.3280	Few:	0.0260
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [132 | 200]
+    > [Train]	Loss:	4.4547
+    > [Test ]	Loss:	4.3266	Acc:	32.0900
+    > [Stats]	Many:	0.6157	Medium:	0.2789	Few:	0.0260
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [133 | 200]
+    > [Train]	Loss:	4.4793
+    > [Test ]	Loss:	4.3167	Acc:	32.1200
+    > [Stats]	Many:	0.6217	Medium:	0.2809	Few:	0.0177
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [134 | 200]
+    > [Train]	Loss:	4.4841
+    > [Test ]	Loss:	4.3102	Acc:	34.2600
+    > [Stats]	Many:	0.6397	Medium:	0.3249	Few:	0.0167
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [135 | 200]
+    > [Train]	Loss:	4.4347
+    > [Test ]	Loss:	4.3132	Acc:	32.6100
+    > [Stats]	Many:	0.6186	Medium:	0.2997	Few:	0.0157
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [136 | 200]
+    > [Train]	Loss:	4.4401
+    > [Test ]	Loss:	4.3205	Acc:	32.0400
+    > [Stats]	Many:	0.5954	Medium:	0.3083	Few:	0.0137
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [137 | 200]
+    > [Train]	Loss:	4.4920
+    > [Test ]	Loss:	4.3147	Acc:	33.0000
+    > [Stats]	Many:	0.6274	Medium:	0.2946	Few:	0.0243
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [138 | 200]
+    > [Train]	Loss:	4.4820
+    > [Test ]	Loss:	4.3229	Acc:	32.7600
+    > [Stats]	Many:	0.6297	Medium:	0.2774	Few:	0.0337
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [139 | 200]
+    > [Train]	Loss:	4.4861
+    > [Test ]	Loss:	4.3023	Acc:	34.8200
+    > [Stats]	Many:	0.6446	Medium:	0.3260	Few:	0.0283
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [140 | 200]
+    > [Train]	Loss:	4.4671
+    > [Test ]	Loss:	4.3228	Acc:	33.5800
+    > [Stats]	Many:	0.6414	Medium:	0.2949	Few:	0.0270
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [141 | 200]
+    > [Train]	Loss:	4.4933
+    > [Test ]	Loss:	4.3162	Acc:	33.2500
+    > [Stats]	Many:	0.6097	Medium:	0.3149	Few:	0.0297
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [142 | 200]
+    > [Train]	Loss:	4.4250
+    > [Test ]	Loss:	4.3078	Acc:	33.7600
+    > [Stats]	Many:	0.6337	Medium:	0.3086	Few:	0.0260
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [143 | 200]
+    > [Train]	Loss:	4.4481
+    > [Test ]	Loss:	4.3157	Acc:	33.5100
+    > [Stats]	Many:	0.6151	Medium:	0.3214	Few:	0.0243
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [144 | 200]
+    > [Train]	Loss:	4.3874
+    > [Test ]	Loss:	4.3153	Acc:	33.3400
+    > [Stats]	Many:	0.6326	Medium:	0.2966	Few:	0.0273
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [145 | 200]
+    > [Train]	Loss:	4.4529
+    > [Test ]	Loss:	4.3149	Acc:	34.5800
+    > [Stats]	Many:	0.6529	Medium:	0.3131	Few:	0.0257
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [146 | 200]
+    > [Train]	Loss:	4.3643
+    > [Test ]	Loss:	4.3102	Acc:	33.4700
+    > [Stats]	Many:	0.6529	Medium:	0.2843	Few:	0.0223
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [147 | 200]
+    > [Train]	Loss:	4.3349
+    > [Test ]	Loss:	4.3167	Acc:	32.4000
+    > [Stats]	Many:	0.6203	Medium:	0.2929	Few:	0.0147
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [148 | 200]
+    > [Train]	Loss:	4.4108
+    > [Test ]	Loss:	4.3038	Acc:	33.9100
+    > [Stats]	Many:	0.6386	Medium:	0.3074	Few:	0.0267
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [149 | 200]
+    > [Train]	Loss:	4.3707
+    > [Test ]	Loss:	4.3175	Acc:	32.1200
+    > [Stats]	Many:	0.6023	Medium:	0.2994	Few:	0.0187
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [150 | 200]
+    > [Train]	Loss:	4.3587
+    > [Test ]	Loss:	4.3049	Acc:	33.5300
+    > [Stats]	Many:	0.6420	Medium:	0.2966	Few:	0.0227
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [151 | 200]
+    > [Train]	Loss:	4.4329
+    > [Test ]	Loss:	4.3047	Acc:	33.6300
+    > [Stats]	Many:	0.6211	Medium:	0.3146	Few:	0.0293
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [152 | 200]
+    > [Train]	Loss:	4.3867
+    > [Test ]	Loss:	4.2948	Acc:	34.3900
+    > [Stats]	Many:	0.6234	Medium:	0.3269	Few:	0.0377
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [153 | 200]
+    > [Train]	Loss:	4.4040
+    > [Test ]	Loss:	4.3225	Acc:	31.5200
+    > [Stats]	Many:	0.5794	Medium:	0.3043	Few:	0.0197
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [154 | 200]
+    > [Train]	Loss:	4.3054
+    > [Test ]	Loss:	4.3159	Acc:	33.3600
+    > [Stats]	Many:	0.6466	Medium:	0.2894	Few:	0.0200
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [155 | 200]
+    > [Train]	Loss:	4.3906
+    > [Test ]	Loss:	4.3116	Acc:	34.2400
+    > [Stats]	Many:	0.6537	Medium:	0.3083	Few:	0.0190
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [156 | 200]
+    > [Train]	Loss:	4.3248
+    > [Test ]	Loss:	4.3141	Acc:	34.1400
+    > [Stats]	Many:	0.6600	Medium:	0.2834	Few:	0.0373
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [157 | 200]
+    > [Train]	Loss:	4.3722
+    > [Test ]	Loss:	4.3273	Acc:	30.9200
+    > [Stats]	Many:	0.6131	Medium:	0.2449	Few:	0.0297
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [158 | 200]
+    > [Train]	Loss:	4.3839
+    > [Test ]	Loss:	4.3161	Acc:	32.4600
+    > [Stats]	Many:	0.6409	Medium:	0.2666	Few:	0.0233
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [159 | 200]
+    > [Train]	Loss:	4.3141
+    > [Test ]	Loss:	4.3064	Acc:	34.3700
+    > [Stats]	Many:	0.6409	Medium:	0.3229	Few:	0.0213
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [160 | 200]
+    > [Train]	Loss:	4.2773
+    > [Test ]	Loss:	4.3066	Acc:	34.7300
+    > [Stats]	Many:	0.6440	Medium:	0.3271	Few:	0.0247
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [161 | 200]
+    > [Train]	Loss:	8.7532
+    > [Test ]	Loss:	4.2768	Acc:	40.3300
+    > [Stats]	Many:	0.6963	Medium:	0.4049	Few:	0.0597
+    > [Best ]	Acc:	40.3300	Many:	69.6286	Medium:	40.4857	Few:	5.9667
+    > [Param]	LR:	0.00100000
+---> Epoch: [162 | 200]
+    > [Train]	Loss:	8.2218
+    > [Test ]	Loss:	4.2714	Acc:	42.2600
+    > [Stats]	Many:	0.6923	Medium:	0.4346	Few:	0.0940
+    > [Best ]	Acc:	42.2600	Many:	69.2286	Medium:	43.4571	Few:	9.4000
+    > [Param]	LR:	0.00100000
+---> Epoch: [163 | 200]
+    > [Train]	Loss:	7.8208
+    > [Test ]	Loss:	4.2680	Acc:	43.3600
+    > [Stats]	Many:	0.6903	Medium:	0.4469	Few:	0.1187
+    > [Best ]	Acc:	43.3600	Many:	69.0286	Medium:	44.6857	Few:	11.8667
+    > [Param]	LR:	0.00100000
+---> Epoch: [164 | 200]
+    > [Train]	Loss:	7.6247
+    > [Test ]	Loss:	4.2654	Acc:	44.2700
+    > [Stats]	Many:	0.6874	Medium:	0.4591	Few:	0.1380
+    > [Best ]	Acc:	44.2700	Many:	68.7428	Medium:	45.9143	Few:	13.8000
+    > [Param]	LR:	0.00100000
+---> Epoch: [165 | 200]
+    > [Train]	Loss:	7.3565
+    > [Test ]	Loss:	4.2634	Acc:	44.9000
+    > [Stats]	Many:	0.6834	Medium:	0.4614	Few:	0.1610
+    > [Best ]	Acc:	44.9000	Many:	68.3429	Medium:	46.1429	Few:	16.1000
+    > [Param]	LR:	0.00100000
+---> Epoch: [166 | 200]
+    > [Train]	Loss:	7.3270
+    > [Test ]	Loss:	4.2614	Acc:	45.5500
+    > [Stats]	Many:	0.6860	Medium:	0.4640	Few:	0.1767
+    > [Best ]	Acc:	45.5500	Many:	68.6000	Medium:	46.4000	Few:	17.6667
+    > [Param]	LR:	0.00100000
+---> Epoch: [167 | 200]
+    > [Train]	Loss:	7.2740
+    > [Test ]	Loss:	4.2602	Acc:	45.6600
+    > [Stats]	Many:	0.6829	Medium:	0.4703	Few:	0.1767
+    > [Best ]	Acc:	45.6600	Many:	68.2857	Medium:	47.0286	Few:	17.6667
+    > [Param]	LR:	0.00100000
+---> Epoch: [168 | 200]
+    > [Train]	Loss:	7.2482
+    > [Test ]	Loss:	4.2592	Acc:	46.0600
+    > [Stats]	Many:	0.6820	Medium:	0.4717	Few:	0.1893
+    > [Best ]	Acc:	46.0600	Many:	68.2000	Medium:	47.1714	Few:	18.9333
+    > [Param]	LR:	0.00100000
+---> Epoch: [169 | 200]
+    > [Train]	Loss:	7.1714
+    > [Test ]	Loss:	4.2578	Acc:	46.0800
+    > [Stats]	Many:	0.6817	Medium:	0.4723	Few:	0.1897
+    > [Best ]	Acc:	46.0800	Many:	68.1714	Medium:	47.2286	Few:	18.9667
+    > [Param]	LR:	0.00100000
+---> Epoch: [170 | 200]
+    > [Train]	Loss:	7.1449
+    > [Test ]	Loss:	4.2568	Acc:	46.3400
+    > [Stats]	Many:	0.6829	Medium:	0.4726	Few:	0.1967
+    > [Best ]	Acc:	46.3400	Many:	68.2857	Medium:	47.2571	Few:	19.6667
+    > [Param]	LR:	0.00100000
+---> Epoch: [171 | 200]
+    > [Train]	Loss:	7.0575
+    > [Test ]	Loss:	4.2559	Acc:	46.5200
+    > [Stats]	Many:	0.6806	Medium:	0.4771	Few:	0.2000
+    > [Best ]	Acc:	46.5200	Many:	68.0571	Medium:	47.7143	Few:	20.0000
+    > [Param]	LR:	0.00100000
+---> Epoch: [172 | 200]
+    > [Train]	Loss:	7.0878
+    > [Test ]	Loss:	4.2552	Acc:	46.3900
+    > [Stats]	Many:	0.6803	Medium:	0.4731	Few:	0.2007
+    > [Best ]	Acc:	46.5200	Many:	68.0571	Medium:	47.7143	Few:	20.0000
+    > [Param]	LR:	0.00100000
+---> Epoch: [173 | 200]
+    > [Train]	Loss:	6.8798
+    > [Test ]	Loss:	4.2546	Acc:	46.5100
+    > [Stats]	Many:	0.6809	Medium:	0.4763	Few:	0.2003
+    > [Best ]	Acc:	46.5200	Many:	68.0571	Medium:	47.7143	Few:	20.0000
+    > [Param]	LR:	0.00100000
+---> Epoch: [174 | 200]
+    > [Train]	Loss:	6.8912
+    > [Test ]	Loss:	4.2533	Acc:	46.6700
+    > [Stats]	Many:	0.6840	Medium:	0.4800	Few:	0.1977
+    > [Best ]	Acc:	46.6700	Many:	68.4000	Medium:	48.0000	Few:	19.7667
+    > [Param]	LR:	0.00100000
+---> Epoch: [175 | 200]
+    > [Train]	Loss:	6.8858
+    > [Test ]	Loss:	4.2527	Acc:	46.7500
+    > [Stats]	Many:	0.6809	Medium:	0.4823	Few:	0.2013
+    > [Best ]	Acc:	46.7500	Many:	68.0857	Medium:	48.2286	Few:	20.1333
+    > [Param]	LR:	0.00100000
+---> Epoch: [176 | 200]
+    > [Train]	Loss:	6.8811
+    > [Test ]	Loss:	4.2520	Acc:	46.9700
+    > [Stats]	Many:	0.6817	Medium:	0.4857	Few:	0.2037
+    > [Best ]	Acc:	46.9700	Many:	68.1714	Medium:	48.5714	Few:	20.3667
+    > [Param]	LR:	0.00100000
+---> Epoch: [177 | 200]
+    > [Train]	Loss:	6.8835
+    > [Test ]	Loss:	4.2516	Acc:	47.1200
+    > [Stats]	Many:	0.6814	Medium:	0.4831	Few:	0.2120
+    > [Best ]	Acc:	47.1200	Many:	68.1429	Medium:	48.3143	Few:	21.2000
+    > [Param]	LR:	0.00100000
+---> Epoch: [178 | 200]
+    > [Train]	Loss:	6.8405
+    > [Test ]	Loss:	4.2513	Acc:	47.0400
+    > [Stats]	Many:	0.6771	Medium:	0.4871	Few:	0.2097
+    > [Best ]	Acc:	47.1200	Many:	68.1429	Medium:	48.3143	Few:	21.2000
+    > [Param]	LR:	0.00100000
+---> Epoch: [179 | 200]
+    > [Train]	Loss:	6.7591
+    > [Test ]	Loss:	4.2511	Acc:	47.0700
+    > [Stats]	Many:	0.6783	Medium:	0.4831	Few:	0.2140
+    > [Best ]	Acc:	47.1200	Many:	68.1429	Medium:	48.3143	Few:	21.2000
+    > [Param]	LR:	0.00100000
+---> Epoch: [180 | 200]
+    > [Train]	Loss:	6.7739
+    > [Test ]	Loss:	4.2513	Acc:	47.1300
+    > [Stats]	Many:	0.6774	Medium:	0.4869	Few:	0.2127
+    > [Best ]	Acc:	47.1300	Many:	67.7429	Medium:	48.6857	Few:	21.2667
+    > [Param]	LR:	0.00100000
+---> Epoch: [181 | 200]
+    > [Train]	Loss:	6.6744
+    > [Test ]	Loss:	4.2521	Acc:	46.9100
+    > [Stats]	Many:	0.6771	Medium:	0.4840	Few:	0.2090
+    > [Best ]	Acc:	47.1300	Many:	67.7429	Medium:	48.6857	Few:	21.2667
+    > [Param]	LR:	0.00001000
+---> Epoch: [182 | 200]
+    > [Train]	Loss:	6.6628
+    > [Test ]	Loss:	4.2515	Acc:	46.9100
+    > [Stats]	Many:	0.6746	Medium:	0.4843	Few:	0.2117
+    > [Best ]	Acc:	47.1300	Many:	67.7429	Medium:	48.6857	Few:	21.2667
+    > [Param]	LR:	0.00001000
+---> Epoch: [183 | 200]
+    > [Train]	Loss:	6.6121
+    > [Test ]	Loss:	4.2513	Acc:	46.9400
+    > [Stats]	Many:	0.6760	Medium:	0.4829	Few:	0.2127
+    > [Best ]	Acc:	47.1300	Many:	67.7429	Medium:	48.6857	Few:	21.2667
+    > [Param]	LR:	0.00001000
+---> Epoch: [184 | 200]
+    > [Train]	Loss:	6.6794
+    > [Test ]	Loss:	4.2513	Acc:	46.9600
+    > [Stats]	Many:	0.6774	Medium:	0.4817	Few:	0.2130
+    > [Best ]	Acc:	47.1300	Many:	67.7429	Medium:	48.6857	Few:	21.2667
+    > [Param]	LR:	0.00001000
+---> Epoch: [185 | 200]
+    > [Train]	Loss:	6.6710
+    > [Test ]	Loss:	4.2508	Acc:	47.1000
+    > [Stats]	Many:	0.6766	Medium:	0.4823	Few:	0.2180
+    > [Best ]	Acc:	47.1300	Many:	67.7429	Medium:	48.6857	Few:	21.2667
+    > [Param]	LR:	0.00001000
+---> Epoch: [186 | 200]
+    > [Train]	Loss:	6.6449
+    > [Test ]	Loss:	4.2510	Acc:	47.1900
+    > [Stats]	Many:	0.6783	Medium:	0.4846	Few:	0.2163
+    > [Best ]	Acc:	47.1900	Many:	67.8286	Medium:	48.4571	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Epoch: [187 | 200]
+    > [Train]	Loss:	6.7464
+    > [Test ]	Loss:	4.2509	Acc:	47.0800
+    > [Stats]	Many:	0.6774	Medium:	0.4834	Few:	0.2150
+    > [Best ]	Acc:	47.1900	Many:	67.8286	Medium:	48.4571	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Epoch: [188 | 200]
+    > [Train]	Loss:	6.6039
+    > [Test ]	Loss:	4.2514	Acc:	47.2000
+    > [Stats]	Many:	0.6777	Medium:	0.4854	Few:	0.2163
+    > [Best ]	Acc:	47.2000	Many:	67.7714	Medium:	48.5429	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Epoch: [189 | 200]
+    > [Train]	Loss:	6.6818
+    > [Test ]	Loss:	4.2508	Acc:	47.0100
+    > [Stats]	Many:	0.6763	Medium:	0.4849	Few:	0.2123
+    > [Best ]	Acc:	47.2000	Many:	67.7714	Medium:	48.5429	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Epoch: [190 | 200]
+    > [Train]	Loss:	6.7115
+    > [Test ]	Loss:	4.2512	Acc:	47.1500
+    > [Stats]	Many:	0.6757	Medium:	0.4854	Few:	0.2170
+    > [Best ]	Acc:	47.2000	Many:	67.7714	Medium:	48.5429	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Epoch: [191 | 200]
+    > [Train]	Loss:	6.6271
+    > [Test ]	Loss:	4.2515	Acc:	47.0600
+    > [Stats]	Many:	0.6771	Medium:	0.4849	Few:	0.2130
+    > [Best ]	Acc:	47.2000	Many:	67.7714	Medium:	48.5429	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Epoch: [192 | 200]
+    > [Train]	Loss:	6.5893
+    > [Test ]	Loss:	4.2511	Acc:	47.0800
+    > [Stats]	Many:	0.6789	Medium:	0.4826	Few:	0.2143
+    > [Best ]	Acc:	47.2000	Many:	67.7714	Medium:	48.5429	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Epoch: [193 | 200]
+    > [Train]	Loss:	6.6624
+    > [Test ]	Loss:	4.2511	Acc:	47.1800
+    > [Stats]	Many:	0.6774	Medium:	0.4854	Few:	0.2160
+    > [Best ]	Acc:	47.2000	Many:	67.7714	Medium:	48.5429	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Epoch: [194 | 200]
+    > [Train]	Loss:	6.6242
+    > [Test ]	Loss:	4.2509	Acc:	46.9800
+    > [Stats]	Many:	0.6766	Medium:	0.4851	Few:	0.2107
+    > [Best ]	Acc:	47.2000	Many:	67.7714	Medium:	48.5429	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Epoch: [195 | 200]
+    > [Train]	Loss:	6.6403
+    > [Test ]	Loss:	4.2511	Acc:	47.1100
+    > [Stats]	Many:	0.6760	Medium:	0.4857	Few:	0.2150
+    > [Best ]	Acc:	47.2000	Many:	67.7714	Medium:	48.5429	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Epoch: [196 | 200]
+    > [Train]	Loss:	6.7335
+    > [Test ]	Loss:	4.2508	Acc:	47.0300
+    > [Stats]	Many:	0.6777	Medium:	0.4820	Few:	0.2147
+    > [Best ]	Acc:	47.2000	Many:	67.7714	Medium:	48.5429	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Epoch: [197 | 200]
+    > [Train]	Loss:	6.6602
+    > [Test ]	Loss:	4.2515	Acc:	47.0000
+    > [Stats]	Many:	0.6777	Medium:	0.4840	Few:	0.2113
+    > [Best ]	Acc:	47.2000	Many:	67.7714	Medium:	48.5429	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Epoch: [198 | 200]
+    > [Train]	Loss:	6.5800
+    > [Test ]	Loss:	4.2511	Acc:	46.9900
+    > [Stats]	Many:	0.6777	Medium:	0.4826	Few:	0.2127
+    > [Best ]	Acc:	47.2000	Many:	67.7714	Medium:	48.5429	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Epoch: [199 | 200]
+    > [Train]	Loss:	6.5421
+    > [Test ]	Loss:	4.2507	Acc:	46.9900
+    > [Stats]	Many:	0.6777	Medium:	0.4837	Few:	0.2113
+    > [Best ]	Acc:	47.2000	Many:	67.7714	Medium:	48.5429	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Epoch: [200 | 200]
+    > [Train]	Loss:	6.6864
+    > [Test ]	Loss:	4.2507	Acc:	47.0800
+    > [Stats]	Many:	0.6774	Medium:	0.4840	Few:	0.2143
+    > [Best ]	Acc:	47.2000	Many:	67.7714	Medium:	48.5429	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Final performance...
+    > best bAcc (test):	47.2
+    > best statistics:	Many:	0.6777143478393555	Med:	0.4854285717010498	Few:	0.21633334457874298
+---> Training Time: 0:16:29.15
+---> ---cifar100---
+---> Argument
+    > network     : resnet32
+    > epochs      : 200
+    > batch_size  : 128
+    > update_epoch: 1
+    > lr          : 0.1
+    > lr_decay    : 0.01
+    > momentum    : 0.9
+    > wd          : 0.0002
+    > nesterov    : False
+    > scheduler   : warmup
+    > warmup      : 5
+    > aug_prob    : 0.5
+    > cutout      : False
+    > cmo         : False
+    > posthoc_la  : False
+    > cuda        : False
+    > aug_type    : autoaug_cifar
+    > sim_type    : none
+    > max_d       : 30
+    > num_test    : 10
+    > accept_rate : 0.6
+    > verbose     : False
+    > use_norm    : False
+    > out         : /kaggle/working/log1
+    > data_dir    : ~/dataset/
+    > workers     : 4
+    > seed        : 5
+    > gpu         : 0
+    > dataset     : cifar100
+    > num_max     : 500
+    > imb_ratio   : 100
+    > loss_fn     : ldam_drw
+    > num_experts : 3
+    > ride_distill: False
+    > num_class   : 100
+---> Epoch: [1 | 200]
+    > [Train]	Loss:	10.7590
+    > [Test ]	Loss:	4.5819	Acc:	4.7900
+    > [Stats]	Many:	0.1366	Medium:	0.0003	Few:	0.0000
+    > [Best ]	Acc:	4.7900	Many:	13.6571	Medium:	0.0286	Few:	0.0000
+    > [Param]	LR:	0.02000000
+---> Epoch: [2 | 200]
+    > [Train]	Loss:	10.2643
+    > [Test ]	Loss:	4.5706	Acc:	4.7900
+    > [Stats]	Many:	0.1297	Medium:	0.0071	Few:	0.0000
+    > [Best ]	Acc:	4.7900	Many:	12.9714	Medium:	0.7143	Few:	0.0000
+    > [Param]	LR:	0.04000000
+---> Epoch: [3 | 200]
+    > [Train]	Loss:	10.1323
+    > [Test ]	Loss:	4.5621	Acc:	7.3200
+    > [Stats]	Many:	0.2023	Medium:	0.0069	Few:	0.0000
+    > [Best ]	Acc:	7.3200	Many:	20.2286	Medium:	0.6857	Few:	0.0000
+    > [Param]	LR:	0.06000000
+---> Epoch: [4 | 200]
+    > [Train]	Loss:	9.8953
+    > [Test ]	Loss:	4.5493	Acc:	8.4400
+    > [Stats]	Many:	0.2097	Medium:	0.0314	Few:	0.0000
+    > [Best ]	Acc:	8.4400	Many:	20.9714	Medium:	3.1429	Few:	0.0000
+    > [Param]	LR:	0.08000000
+---> Epoch: [5 | 200]
+    > [Train]	Loss:	9.7528
+    > [Test ]	Loss:	4.5438	Acc:	7.3700
+    > [Stats]	Many:	0.2017	Medium:	0.0051	Few:	0.0043
+    > [Best ]	Acc:	8.4400	Many:	20.9714	Medium:	3.1429	Few:	0.0000
+    > [Param]	LR:	0.10000000
+---> Epoch: [6 | 200]
+    > [Train]	Loss:	9.5065
+    > [Test ]	Loss:	4.5292	Acc:	10.3500
+    > [Stats]	Many:	0.2434	Medium:	0.0523	Few:	0.0000
+    > [Best ]	Acc:	10.3500	Many:	24.3429	Medium:	5.2286	Few:	0.0000
+    > [Param]	LR:	0.10000000
+---> Epoch: [7 | 200]
+    > [Train]	Loss:	9.2975
+    > [Test ]	Loss:	4.5223	Acc:	10.3000
+    > [Stats]	Many:	0.2577	Medium:	0.0363	Few:	0.0003
+    > [Best ]	Acc:	10.3500	Many:	24.3429	Medium:	5.2286	Few:	0.0000
+    > [Param]	LR:	0.10000000
+---> Epoch: [8 | 200]
+    > [Train]	Loss:	9.1632
+    > [Test ]	Loss:	4.5097	Acc:	12.2100
+    > [Stats]	Many:	0.2966	Medium:	0.0497	Few:	0.0030
+    > [Best ]	Acc:	12.2100	Many:	29.6571	Medium:	4.9714	Few:	0.3000
+    > [Param]	LR:	0.10000000
+---> Epoch: [9 | 200]
+    > [Train]	Loss:	8.9343
+    > [Test ]	Loss:	4.5060	Acc:	11.8800
+    > [Stats]	Many:	0.2717	Medium:	0.0677	Few:	0.0000
+    > [Best ]	Acc:	12.2100	Many:	29.6571	Medium:	4.9714	Few:	0.3000
+    > [Param]	LR:	0.10000000
+---> Epoch: [10 | 200]
+    > [Train]	Loss:	8.7743
+    > [Test ]	Loss:	4.4970	Acc:	12.1200
+    > [Stats]	Many:	0.2763	Medium:	0.0634	Few:	0.0077
+    > [Best ]	Acc:	12.2100	Many:	29.6571	Medium:	4.9714	Few:	0.3000
+    > [Param]	LR:	0.10000000
+---> Epoch: [11 | 200]
+    > [Train]	Loss:	8.6297
+    > [Test ]	Loss:	4.4941	Acc:	12.3600
+    > [Stats]	Many:	0.2854	Medium:	0.0637	Few:	0.0047
+    > [Best ]	Acc:	12.3600	Many:	28.5429	Medium:	6.3714	Few:	0.4667
+    > [Param]	LR:	0.10000000
+---> Epoch: [12 | 200]
+    > [Train]	Loss:	8.4584
+    > [Test ]	Loss:	4.4789	Acc:	12.0500
+    > [Stats]	Many:	0.3026	Medium:	0.0389	Few:	0.0033
+    > [Best ]	Acc:	12.3600	Many:	28.5429	Medium:	6.3714	Few:	0.4667
+    > [Param]	LR:	0.10000000
+---> Epoch: [13 | 200]
+    > [Train]	Loss:	8.3740
+    > [Test ]	Loss:	4.4719	Acc:	14.5200
+    > [Stats]	Many:	0.3569	Medium:	0.0557	Few:	0.0027
+    > [Best ]	Acc:	14.5200	Many:	35.6857	Medium:	5.5714	Few:	0.2667
+    > [Param]	LR:	0.10000000
+---> Epoch: [14 | 200]
+    > [Train]	Loss:	8.2337
+    > [Test ]	Loss:	4.4671	Acc:	17.0100
+    > [Stats]	Many:	0.4117	Medium:	0.0731	Few:	0.0013
+    > [Best ]	Acc:	17.0100	Many:	41.1714	Medium:	7.3143	Few:	0.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [15 | 200]
+    > [Train]	Loss:	8.0727
+    > [Test ]	Loss:	4.4780	Acc:	13.9100
+    > [Stats]	Many:	0.3283	Medium:	0.0649	Few:	0.0050
+    > [Best ]	Acc:	17.0100	Many:	41.1714	Medium:	7.3143	Few:	0.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [16 | 200]
+    > [Train]	Loss:	7.9538
+    > [Test ]	Loss:	4.4643	Acc:	16.7900
+    > [Stats]	Many:	0.4014	Medium:	0.0769	Few:	0.0017
+    > [Best ]	Acc:	17.0100	Many:	41.1714	Medium:	7.3143	Few:	0.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [17 | 200]
+    > [Train]	Loss:	7.8597
+    > [Test ]	Loss:	4.4482	Acc:	17.8200
+    > [Stats]	Many:	0.4094	Medium:	0.0966	Few:	0.0037
+    > [Best ]	Acc:	17.8200	Many:	40.9429	Medium:	9.6571	Few:	0.3667
+    > [Param]	LR:	0.10000000
+---> Epoch: [18 | 200]
+    > [Train]	Loss:	7.7090
+    > [Test ]	Loss:	4.4459	Acc:	18.8000
+    > [Stats]	Many:	0.4471	Medium:	0.0786	Few:	0.0133
+    > [Best ]	Acc:	18.8000	Many:	44.7143	Medium:	7.8571	Few:	1.3333
+    > [Param]	LR:	0.10000000
+---> Epoch: [19 | 200]
+    > [Train]	Loss:	7.6435
+    > [Test ]	Loss:	4.4502	Acc:	18.0000
+    > [Stats]	Many:	0.4311	Medium:	0.0814	Few:	0.0020
+    > [Best ]	Acc:	18.8000	Many:	44.7143	Medium:	7.8571	Few:	1.3333
+    > [Param]	LR:	0.10000000
+---> Epoch: [20 | 200]
+    > [Train]	Loss:	7.5082
+    > [Test ]	Loss:	4.4303	Acc:	20.0000
+    > [Stats]	Many:	0.4580	Medium:	0.1054	Few:	0.0093
+    > [Best ]	Acc:	20.0000	Many:	45.8000	Medium:	10.5429	Few:	0.9333
+    > [Param]	LR:	0.10000000
+---> Epoch: [21 | 200]
+    > [Train]	Loss:	7.4163
+    > [Test ]	Loss:	4.4391	Acc:	19.6400
+    > [Stats]	Many:	0.4514	Medium:	0.1034	Few:	0.0073
+    > [Best ]	Acc:	20.0000	Many:	45.8000	Medium:	10.5429	Few:	0.9333
+    > [Param]	LR:	0.10000000
+---> Epoch: [22 | 200]
+    > [Train]	Loss:	7.3339
+    > [Test ]	Loss:	4.4297	Acc:	20.9100
+    > [Stats]	Many:	0.4911	Medium:	0.1003	Few:	0.0070
+    > [Best ]	Acc:	20.9100	Many:	49.1143	Medium:	10.0286	Few:	0.7000
+    > [Param]	LR:	0.10000000
+---> Epoch: [23 | 200]
+    > [Train]	Loss:	7.1854
+    > [Test ]	Loss:	4.4155	Acc:	21.8600
+    > [Stats]	Many:	0.4966	Medium:	0.1171	Few:	0.0127
+    > [Best ]	Acc:	21.8600	Many:	49.6571	Medium:	11.7143	Few:	1.2667
+    > [Param]	LR:	0.10000000
+---> Epoch: [24 | 200]
+    > [Train]	Loss:	7.1825
+    > [Test ]	Loss:	4.4203	Acc:	19.7700
+    > [Stats]	Many:	0.4426	Medium:	0.1163	Few:	0.0070
+    > [Best ]	Acc:	21.8600	Many:	49.6571	Medium:	11.7143	Few:	1.2667
+    > [Param]	LR:	0.10000000
+---> Epoch: [25 | 200]
+    > [Train]	Loss:	7.0515
+    > [Test ]	Loss:	4.4299	Acc:	18.9700
+    > [Stats]	Many:	0.4369	Medium:	0.1023	Few:	0.0033
+    > [Best ]	Acc:	21.8600	Many:	49.6571	Medium:	11.7143	Few:	1.2667
+    > [Param]	LR:	0.10000000
+---> Epoch: [26 | 200]
+    > [Train]	Loss:	6.9736
+    > [Test ]	Loss:	4.4006	Acc:	22.6700
+    > [Stats]	Many:	0.5049	Medium:	0.1363	Few:	0.0077
+    > [Best ]	Acc:	22.6700	Many:	50.4857	Medium:	13.6286	Few:	0.7667
+    > [Param]	LR:	0.10000000
+---> Epoch: [27 | 200]
+    > [Train]	Loss:	6.9342
+    > [Test ]	Loss:	4.4248	Acc:	19.6400
+    > [Stats]	Many:	0.4389	Medium:	0.1180	Few:	0.0050
+    > [Best ]	Acc:	22.6700	Many:	50.4857	Medium:	13.6286	Few:	0.7667
+    > [Param]	LR:	0.10000000
+---> Epoch: [28 | 200]
+    > [Train]	Loss:	6.7836
+    > [Test ]	Loss:	4.3943	Acc:	22.6100
+    > [Stats]	Many:	0.5037	Medium:	0.1294	Few:	0.0150
+    > [Best ]	Acc:	22.6700	Many:	50.4857	Medium:	13.6286	Few:	0.7667
+    > [Param]	LR:	0.10000000
+---> Epoch: [29 | 200]
+    > [Train]	Loss:	6.7284
+    > [Test ]	Loss:	4.4140	Acc:	22.1300
+    > [Stats]	Many:	0.5111	Medium:	0.1163	Few:	0.0057
+    > [Best ]	Acc:	22.6700	Many:	50.4857	Medium:	13.6286	Few:	0.7667
+    > [Param]	LR:	0.10000000
+---> Epoch: [30 | 200]
+    > [Train]	Loss:	6.6702
+    > [Test ]	Loss:	4.4211	Acc:	18.0400
+    > [Stats]	Many:	0.4314	Medium:	0.0797	Few:	0.0050
+    > [Best ]	Acc:	22.6700	Many:	50.4857	Medium:	13.6286	Few:	0.7667
+    > [Param]	LR:	0.10000000
+---> Epoch: [31 | 200]
+    > [Train]	Loss:	6.6826
+    > [Test ]	Loss:	4.3905	Acc:	25.0200
+    > [Stats]	Many:	0.5357	Medium:	0.1691	Few:	0.0117
+    > [Best ]	Acc:	25.0200	Many:	53.5714	Medium:	16.9143	Few:	1.1667
+    > [Param]	LR:	0.10000000
+---> Epoch: [32 | 200]
+    > [Train]	Loss:	6.5571
+    > [Test ]	Loss:	4.3987	Acc:	23.3500
+    > [Stats]	Many:	0.5214	Medium:	0.1391	Few:	0.0077
+    > [Best ]	Acc:	25.0200	Many:	53.5714	Medium:	16.9143	Few:	1.1667
+    > [Param]	LR:	0.10000000
+---> Epoch: [33 | 200]
+    > [Train]	Loss:	6.5217
+    > [Test ]	Loss:	4.3822	Acc:	24.5300
+    > [Stats]	Many:	0.5446	Medium:	0.1509	Few:	0.0063
+    > [Best ]	Acc:	25.0200	Many:	53.5714	Medium:	16.9143	Few:	1.1667
+    > [Param]	LR:	0.10000000
+---> Epoch: [34 | 200]
+    > [Train]	Loss:	6.4632
+    > [Test ]	Loss:	4.3870	Acc:	27.3800
+    > [Stats]	Many:	0.5766	Medium:	0.1891	Few:	0.0193
+    > [Best ]	Acc:	27.3800	Many:	57.6571	Medium:	18.9143	Few:	1.9333
+    > [Param]	LR:	0.10000000
+---> Epoch: [35 | 200]
+    > [Train]	Loss:	6.3678
+    > [Test ]	Loss:	4.3884	Acc:	24.1400
+    > [Stats]	Many:	0.5240	Medium:	0.1491	Few:	0.0193
+    > [Best ]	Acc:	27.3800	Many:	57.6571	Medium:	18.9143	Few:	1.9333
+    > [Param]	LR:	0.10000000
+---> Epoch: [36 | 200]
+    > [Train]	Loss:	6.3422
+    > [Test ]	Loss:	4.3789	Acc:	25.8500
+    > [Stats]	Many:	0.5477	Medium:	0.1820	Few:	0.0103
+    > [Best ]	Acc:	27.3800	Many:	57.6571	Medium:	18.9143	Few:	1.9333
+    > [Param]	LR:	0.10000000
+---> Epoch: [37 | 200]
+    > [Train]	Loss:	6.3301
+    > [Test ]	Loss:	4.3901	Acc:	24.7000
+    > [Stats]	Many:	0.5183	Medium:	0.1726	Few:	0.0173
+    > [Best ]	Acc:	27.3800	Many:	57.6571	Medium:	18.9143	Few:	1.9333
+    > [Param]	LR:	0.10000000
+---> Epoch: [38 | 200]
+    > [Train]	Loss:	6.3185
+    > [Test ]	Loss:	4.3850	Acc:	26.2300
+    > [Stats]	Many:	0.5760	Medium:	0.1583	Few:	0.0177
+    > [Best ]	Acc:	27.3800	Many:	57.6571	Medium:	18.9143	Few:	1.9333
+    > [Param]	LR:	0.10000000
+---> Epoch: [39 | 200]
+    > [Train]	Loss:	6.2221
+    > [Test ]	Loss:	4.3944	Acc:	23.4800
+    > [Stats]	Many:	0.5043	Medium:	0.1540	Few:	0.0147
+    > [Best ]	Acc:	27.3800	Many:	57.6571	Medium:	18.9143	Few:	1.9333
+    > [Param]	LR:	0.10000000
+---> Epoch: [40 | 200]
+    > [Train]	Loss:	6.2132
+    > [Test ]	Loss:	4.3699	Acc:	27.1300
+    > [Stats]	Many:	0.5717	Medium:	0.1843	Few:	0.0223
+    > [Best ]	Acc:	27.3800	Many:	57.6571	Medium:	18.9143	Few:	1.9333
+    > [Param]	LR:	0.10000000
+---> Epoch: [41 | 200]
+    > [Train]	Loss:	6.1165
+    > [Test ]	Loss:	4.3643	Acc:	29.4800
+    > [Stats]	Many:	0.6051	Medium:	0.2231	Few:	0.0163
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [42 | 200]
+    > [Train]	Loss:	6.0325
+    > [Test ]	Loss:	4.3737	Acc:	27.1000
+    > [Stats]	Many:	0.5557	Medium:	0.2117	Few:	0.0080
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [43 | 200]
+    > [Train]	Loss:	6.0478
+    > [Test ]	Loss:	4.3877	Acc:	24.0300
+    > [Stats]	Many:	0.5057	Medium:	0.1737	Few:	0.0083
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [44 | 200]
+    > [Train]	Loss:	5.9989
+    > [Test ]	Loss:	4.3737	Acc:	26.1200
+    > [Stats]	Many:	0.5631	Medium:	0.1729	Few:	0.0120
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [45 | 200]
+    > [Train]	Loss:	5.9577
+    > [Test ]	Loss:	4.3642	Acc:	26.9200
+    > [Stats]	Many:	0.5491	Medium:	0.1977	Few:	0.0260
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [46 | 200]
+    > [Train]	Loss:	5.8690
+    > [Test ]	Loss:	4.3677	Acc:	26.0000
+    > [Stats]	Many:	0.5503	Medium:	0.1834	Few:	0.0107
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [47 | 200]
+    > [Train]	Loss:	5.9411
+    > [Test ]	Loss:	4.3684	Acc:	28.0000
+    > [Stats]	Many:	0.5589	Medium:	0.2226	Few:	0.0217
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [48 | 200]
+    > [Train]	Loss:	5.7956
+    > [Test ]	Loss:	4.3736	Acc:	26.3100
+    > [Stats]	Many:	0.5554	Medium:	0.1871	Few:	0.0107
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [49 | 200]
+    > [Train]	Loss:	5.8326
+    > [Test ]	Loss:	4.3741	Acc:	27.0700
+    > [Stats]	Many:	0.5566	Medium:	0.2020	Few:	0.0173
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [50 | 200]
+    > [Train]	Loss:	5.8103
+    > [Test ]	Loss:	4.3607	Acc:	28.6300
+    > [Stats]	Many:	0.5917	Medium:	0.2157	Few:	0.0123
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [51 | 200]
+    > [Train]	Loss:	5.7621
+    > [Test ]	Loss:	4.3626	Acc:	28.0900
+    > [Stats]	Many:	0.6134	Medium:	0.1817	Few:	0.0087
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [52 | 200]
+    > [Train]	Loss:	5.7643
+    > [Test ]	Loss:	4.3665	Acc:	28.0200
+    > [Stats]	Many:	0.5877	Medium:	0.1920	Few:	0.0243
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [53 | 200]
+    > [Train]	Loss:	5.6489
+    > [Test ]	Loss:	4.3550	Acc:	29.1100
+    > [Stats]	Many:	0.5963	Medium:	0.2214	Few:	0.0163
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [54 | 200]
+    > [Train]	Loss:	5.6301
+    > [Test ]	Loss:	4.3601	Acc:	28.6100
+    > [Stats]	Many:	0.6009	Medium:	0.2031	Few:	0.0157
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [55 | 200]
+    > [Train]	Loss:	5.6031
+    > [Test ]	Loss:	4.3596	Acc:	27.9700
+    > [Stats]	Many:	0.5814	Medium:	0.2054	Few:	0.0143
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [56 | 200]
+    > [Train]	Loss:	5.6314
+    > [Test ]	Loss:	4.3674	Acc:	26.2800
+    > [Stats]	Many:	0.5466	Medium:	0.1886	Few:	0.0183
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [57 | 200]
+    > [Train]	Loss:	5.6065
+    > [Test ]	Loss:	4.3523	Acc:	29.1300
+    > [Stats]	Many:	0.6043	Medium:	0.2091	Few:	0.0220
+    > [Best ]	Acc:	29.4800	Many:	60.5143	Medium:	22.3143	Few:	1.6333
+    > [Param]	LR:	0.10000000
+---> Epoch: [58 | 200]
+    > [Train]	Loss:	5.5501
+    > [Test ]	Loss:	4.3456	Acc:	30.0900
+    > [Stats]	Many:	0.6034	Medium:	0.2386	Few:	0.0207
+    > [Best ]	Acc:	30.0900	Many:	60.3429	Medium:	23.8571	Few:	2.0667
+    > [Param]	LR:	0.10000000
+---> Epoch: [59 | 200]
+    > [Train]	Loss:	5.4986
+    > [Test ]	Loss:	4.3407	Acc:	31.7200
+    > [Stats]	Many:	0.5903	Medium:	0.2969	Few:	0.0223
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [60 | 200]
+    > [Train]	Loss:	5.4558
+    > [Test ]	Loss:	4.3500	Acc:	27.8100
+    > [Stats]	Many:	0.5711	Medium:	0.2006	Few:	0.0267
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [61 | 200]
+    > [Train]	Loss:	5.4417
+    > [Test ]	Loss:	4.3522	Acc:	28.0900
+    > [Stats]	Many:	0.5994	Medium:	0.1943	Few:	0.0103
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [62 | 200]
+    > [Train]	Loss:	5.4651
+    > [Test ]	Loss:	4.3485	Acc:	28.9800
+    > [Stats]	Many:	0.5943	Medium:	0.2200	Few:	0.0160
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [63 | 200]
+    > [Train]	Loss:	5.4146
+    > [Test ]	Loss:	4.3460	Acc:	28.7400
+    > [Stats]	Many:	0.5911	Medium:	0.2240	Few:	0.0070
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [64 | 200]
+    > [Train]	Loss:	5.3708
+    > [Test ]	Loss:	4.3443	Acc:	30.1200
+    > [Stats]	Many:	0.5900	Medium:	0.2549	Few:	0.0183
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [65 | 200]
+    > [Train]	Loss:	5.3604
+    > [Test ]	Loss:	4.3485	Acc:	29.4100
+    > [Stats]	Many:	0.5917	Medium:	0.2391	Few:	0.0110
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [66 | 200]
+    > [Train]	Loss:	5.3458
+    > [Test ]	Loss:	4.3445	Acc:	30.6800
+    > [Stats]	Many:	0.6049	Medium:	0.2583	Few:	0.0157
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [67 | 200]
+    > [Train]	Loss:	5.3068
+    > [Test ]	Loss:	4.3412	Acc:	30.2600
+    > [Stats]	Many:	0.6051	Medium:	0.2451	Few:	0.0167
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [68 | 200]
+    > [Train]	Loss:	5.2430
+    > [Test ]	Loss:	4.3438	Acc:	28.6100
+    > [Stats]	Many:	0.5780	Medium:	0.2346	Few:	0.0057
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [69 | 200]
+    > [Train]	Loss:	5.2894
+    > [Test ]	Loss:	4.3389	Acc:	30.7000
+    > [Stats]	Many:	0.6103	Medium:	0.2603	Few:	0.0077
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [70 | 200]
+    > [Train]	Loss:	5.2130
+    > [Test ]	Loss:	4.3750	Acc:	25.1500
+    > [Stats]	Many:	0.5177	Medium:	0.1920	Few:	0.0103
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [71 | 200]
+    > [Train]	Loss:	5.2247
+    > [Test ]	Loss:	4.3459	Acc:	30.4700
+    > [Stats]	Many:	0.6080	Medium:	0.2400	Few:	0.0263
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [72 | 200]
+    > [Train]	Loss:	5.2196
+    > [Test ]	Loss:	4.3421	Acc:	29.1700
+    > [Stats]	Many:	0.5766	Medium:	0.2386	Few:	0.0213
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [73 | 200]
+    > [Train]	Loss:	5.1611
+    > [Test ]	Loss:	4.3392	Acc:	30.9400
+    > [Stats]	Many:	0.5826	Medium:	0.2891	Few:	0.0143
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [74 | 200]
+    > [Train]	Loss:	5.2076
+    > [Test ]	Loss:	4.3412	Acc:	30.7600
+    > [Stats]	Many:	0.5954	Medium:	0.2506	Few:	0.0383
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [75 | 200]
+    > [Train]	Loss:	5.1663
+    > [Test ]	Loss:	4.3512	Acc:	27.6400
+    > [Stats]	Many:	0.5643	Medium:	0.2034	Few:	0.0257
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [76 | 200]
+    > [Train]	Loss:	5.1245
+    > [Test ]	Loss:	4.3278	Acc:	31.3900
+    > [Stats]	Many:	0.5997	Medium:	0.2829	Few:	0.0167
+    > [Best ]	Acc:	31.7200	Many:	59.0286	Medium:	29.6857	Few:	2.2333
+    > [Param]	LR:	0.10000000
+---> Epoch: [77 | 200]
+    > [Train]	Loss:	5.0775
+    > [Test ]	Loss:	4.3263	Acc:	32.1300
+    > [Stats]	Many:	0.6189	Medium:	0.2840	Few:	0.0177
+    > [Best ]	Acc:	32.1300	Many:	61.8857	Medium:	28.4000	Few:	1.7667
+    > [Param]	LR:	0.10000000
+---> Epoch: [78 | 200]
+    > [Train]	Loss:	5.1397
+    > [Test ]	Loss:	4.3348	Acc:	30.9400
+    > [Stats]	Many:	0.5923	Medium:	0.2729	Few:	0.0220
+    > [Best ]	Acc:	32.1300	Many:	61.8857	Medium:	28.4000	Few:	1.7667
+    > [Param]	LR:	0.10000000
+---> Epoch: [79 | 200]
+    > [Train]	Loss:	5.1304
+    > [Test ]	Loss:	4.3368	Acc:	28.9700
+    > [Stats]	Many:	0.5680	Medium:	0.2506	Few:	0.0107
+    > [Best ]	Acc:	32.1300	Many:	61.8857	Medium:	28.4000	Few:	1.7667
+    > [Param]	LR:	0.10000000
+---> Epoch: [80 | 200]
+    > [Train]	Loss:	5.0767
+    > [Test ]	Loss:	4.3331	Acc:	32.4000
+    > [Stats]	Many:	0.6206	Medium:	0.2954	Few:	0.0113
+    > [Best ]	Acc:	32.4000	Many:	62.0571	Medium:	29.5429	Few:	1.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [81 | 200]
+    > [Train]	Loss:	5.0053
+    > [Test ]	Loss:	4.3375	Acc:	29.8300
+    > [Stats]	Many:	0.5709	Medium:	0.2657	Few:	0.0183
+    > [Best ]	Acc:	32.4000	Many:	62.0571	Medium:	29.5429	Few:	1.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [82 | 200]
+    > [Train]	Loss:	5.0393
+    > [Test ]	Loss:	4.3360	Acc:	29.2900
+    > [Stats]	Many:	0.5729	Medium:	0.2437	Few:	0.0237
+    > [Best ]	Acc:	32.4000	Many:	62.0571	Medium:	29.5429	Few:	1.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [83 | 200]
+    > [Train]	Loss:	5.0972
+    > [Test ]	Loss:	4.3363	Acc:	29.9000
+    > [Stats]	Many:	0.6254	Medium:	0.2186	Few:	0.0120
+    > [Best ]	Acc:	32.4000	Many:	62.0571	Medium:	29.5429	Few:	1.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [84 | 200]
+    > [Train]	Loss:	5.0051
+    > [Test ]	Loss:	4.3368	Acc:	30.6600
+    > [Stats]	Many:	0.5937	Medium:	0.2657	Few:	0.0193
+    > [Best ]	Acc:	32.4000	Many:	62.0571	Medium:	29.5429	Few:	1.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [85 | 200]
+    > [Train]	Loss:	4.9901
+    > [Test ]	Loss:	4.3451	Acc:	29.1400
+    > [Stats]	Many:	0.5669	Medium:	0.2503	Few:	0.0180
+    > [Best ]	Acc:	32.4000	Many:	62.0571	Medium:	29.5429	Few:	1.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [86 | 200]
+    > [Train]	Loss:	5.0036
+    > [Test ]	Loss:	4.3308	Acc:	32.2800
+    > [Stats]	Many:	0.6314	Medium:	0.2749	Few:	0.0187
+    > [Best ]	Acc:	32.4000	Many:	62.0571	Medium:	29.5429	Few:	1.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [87 | 200]
+    > [Train]	Loss:	4.9044
+    > [Test ]	Loss:	4.3283	Acc:	32.9700
+    > [Stats]	Many:	0.6260	Medium:	0.2971	Few:	0.0220
+    > [Best ]	Acc:	32.9700	Many:	62.6000	Medium:	29.7143	Few:	2.2000
+    > [Param]	LR:	0.10000000
+---> Epoch: [88 | 200]
+    > [Train]	Loss:	4.9628
+    > [Test ]	Loss:	4.3422	Acc:	27.8700
+    > [Stats]	Many:	0.5380	Medium:	0.2383	Few:	0.0233
+    > [Best ]	Acc:	32.9700	Many:	62.6000	Medium:	29.7143	Few:	2.2000
+    > [Param]	LR:	0.10000000
+---> Epoch: [89 | 200]
+    > [Train]	Loss:	4.8964
+    > [Test ]	Loss:	4.3216	Acc:	32.6200
+    > [Stats]	Many:	0.6166	Medium:	0.3014	Few:	0.0163
+    > [Best ]	Acc:	32.9700	Many:	62.6000	Medium:	29.7143	Few:	2.2000
+    > [Param]	LR:	0.10000000
+---> Epoch: [90 | 200]
+    > [Train]	Loss:	4.8567
+    > [Test ]	Loss:	4.3237	Acc:	30.3600
+    > [Stats]	Many:	0.6000	Medium:	0.2491	Few:	0.0213
+    > [Best ]	Acc:	32.9700	Many:	62.6000	Medium:	29.7143	Few:	2.2000
+    > [Param]	LR:	0.10000000
+---> Epoch: [91 | 200]
+    > [Train]	Loss:	4.8876
+    > [Test ]	Loss:	4.3339	Acc:	31.2300
+    > [Stats]	Many:	0.5963	Medium:	0.2820	Few:	0.0163
+    > [Best ]	Acc:	32.9700	Many:	62.6000	Medium:	29.7143	Few:	2.2000
+    > [Param]	LR:	0.10000000
+---> Epoch: [92 | 200]
+    > [Train]	Loss:	4.9075
+    > [Test ]	Loss:	4.3298	Acc:	31.8700
+    > [Stats]	Many:	0.5957	Medium:	0.2889	Few:	0.0303
+    > [Best ]	Acc:	32.9700	Many:	62.6000	Medium:	29.7143	Few:	2.2000
+    > [Param]	LR:	0.10000000
+---> Epoch: [93 | 200]
+    > [Train]	Loss:	4.8771
+    > [Test ]	Loss:	4.3168	Acc:	33.6000
+    > [Stats]	Many:	0.6203	Medium:	0.3214	Few:	0.0213
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [94 | 200]
+    > [Train]	Loss:	4.8216
+    > [Test ]	Loss:	4.3352	Acc:	31.1600
+    > [Stats]	Many:	0.6143	Medium:	0.2623	Few:	0.0160
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [95 | 200]
+    > [Train]	Loss:	4.8810
+    > [Test ]	Loss:	4.3267	Acc:	31.3300
+    > [Stats]	Many:	0.6371	Medium:	0.2431	Few:	0.0173
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [96 | 200]
+    > [Train]	Loss:	4.8535
+    > [Test ]	Loss:	4.3246	Acc:	31.6200
+    > [Stats]	Many:	0.6054	Medium:	0.2829	Few:	0.0177
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [97 | 200]
+    > [Train]	Loss:	4.8146
+    > [Test ]	Loss:	4.3250	Acc:	32.1100
+    > [Stats]	Many:	0.5814	Medium:	0.3197	Few:	0.0190
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [98 | 200]
+    > [Train]	Loss:	4.8319
+    > [Test ]	Loss:	4.3231	Acc:	33.5000
+    > [Stats]	Many:	0.6423	Medium:	0.2920	Few:	0.0267
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [99 | 200]
+    > [Train]	Loss:	4.8458
+    > [Test ]	Loss:	4.3246	Acc:	31.8900
+    > [Stats]	Many:	0.5960	Medium:	0.3031	Few:	0.0140
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [100 | 200]
+    > [Train]	Loss:	4.8000
+    > [Test ]	Loss:	4.3427	Acc:	30.6800
+    > [Stats]	Many:	0.5706	Medium:	0.2894	Few:	0.0193
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [101 | 200]
+    > [Train]	Loss:	4.7634
+    > [Test ]	Loss:	4.3142	Acc:	31.7400
+    > [Stats]	Many:	0.6106	Medium:	0.2774	Few:	0.0220
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [102 | 200]
+    > [Train]	Loss:	4.8009
+    > [Test ]	Loss:	4.3260	Acc:	31.5400
+    > [Stats]	Many:	0.6120	Medium:	0.2674	Few:	0.0253
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [103 | 200]
+    > [Train]	Loss:	4.7609
+    > [Test ]	Loss:	4.3312	Acc:	29.4000
+    > [Stats]	Many:	0.5629	Medium:	0.2534	Few:	0.0277
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [104 | 200]
+    > [Train]	Loss:	4.8287
+    > [Test ]	Loss:	4.3231	Acc:	32.5400
+    > [Stats]	Many:	0.6231	Medium:	0.2894	Few:	0.0200
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [105 | 200]
+    > [Train]	Loss:	4.6696
+    > [Test ]	Loss:	4.3120	Acc:	33.5100
+    > [Stats]	Many:	0.6494	Medium:	0.2940	Few:	0.0163
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [106 | 200]
+    > [Train]	Loss:	4.6686
+    > [Test ]	Loss:	4.3402	Acc:	30.0600
+    > [Stats]	Many:	0.5597	Medium:	0.2794	Few:	0.0230
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [107 | 200]
+    > [Train]	Loss:	4.7260
+    > [Test ]	Loss:	4.3256	Acc:	31.7000
+    > [Stats]	Many:	0.5960	Medium:	0.2889	Few:	0.0243
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [108 | 200]
+    > [Train]	Loss:	4.7848
+    > [Test ]	Loss:	4.3497	Acc:	26.9300
+    > [Stats]	Many:	0.5577	Medium:	0.2020	Few:	0.0113
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [109 | 200]
+    > [Train]	Loss:	4.7428
+    > [Test ]	Loss:	4.3155	Acc:	31.5900
+    > [Stats]	Many:	0.5903	Medium:	0.2909	Few:	0.0250
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [110 | 200]
+    > [Train]	Loss:	4.6218
+    > [Test ]	Loss:	4.3206	Acc:	33.1900
+    > [Stats]	Many:	0.6291	Medium:	0.2906	Few:	0.0333
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [111 | 200]
+    > [Train]	Loss:	4.6892
+    > [Test ]	Loss:	4.3337	Acc:	32.0100
+    > [Stats]	Many:	0.6069	Medium:	0.2840	Few:	0.0277
+    > [Best ]	Acc:	33.6000	Many:	62.0286	Medium:	32.1429	Few:	2.1333
+    > [Param]	LR:	0.10000000
+---> Epoch: [112 | 200]
+    > [Train]	Loss:	4.6115
+    > [Test ]	Loss:	4.3076	Acc:	35.1000
+    > [Stats]	Many:	0.6694	Medium:	0.3129	Few:	0.0240
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [113 | 200]
+    > [Train]	Loss:	4.6582
+    > [Test ]	Loss:	4.3273	Acc:	32.5300
+    > [Stats]	Many:	0.6171	Medium:	0.2940	Few:	0.0213
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [114 | 200]
+    > [Train]	Loss:	4.6426
+    > [Test ]	Loss:	4.3354	Acc:	30.1400
+    > [Stats]	Many:	0.5754	Medium:	0.2649	Few:	0.0243
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [115 | 200]
+    > [Train]	Loss:	4.6195
+    > [Test ]	Loss:	4.3318	Acc:	29.9500
+    > [Stats]	Many:	0.5700	Medium:	0.2640	Few:	0.0253
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [116 | 200]
+    > [Train]	Loss:	4.7085
+    > [Test ]	Loss:	4.3096	Acc:	34.3000
+    > [Stats]	Many:	0.6269	Medium:	0.3369	Few:	0.0190
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [117 | 200]
+    > [Train]	Loss:	4.5647
+    > [Test ]	Loss:	4.3247	Acc:	32.6600
+    > [Stats]	Many:	0.6077	Medium:	0.3143	Few:	0.0130
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [118 | 200]
+    > [Train]	Loss:	4.5554
+    > [Test ]	Loss:	4.3245	Acc:	32.8600
+    > [Stats]	Many:	0.6209	Medium:	0.2980	Few:	0.0233
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [119 | 200]
+    > [Train]	Loss:	4.6810
+    > [Test ]	Loss:	4.3112	Acc:	33.2100
+    > [Stats]	Many:	0.6434	Medium:	0.2803	Few:	0.0293
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [120 | 200]
+    > [Train]	Loss:	4.6034
+    > [Test ]	Loss:	4.3299	Acc:	31.1500
+    > [Stats]	Many:	0.5851	Medium:	0.2774	Few:	0.0320
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [121 | 200]
+    > [Train]	Loss:	4.5927
+    > [Test ]	Loss:	4.3161	Acc:	32.7700
+    > [Stats]	Many:	0.6280	Medium:	0.2846	Few:	0.0277
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [122 | 200]
+    > [Train]	Loss:	4.6158
+    > [Test ]	Loss:	4.3186	Acc:	33.3000
+    > [Stats]	Many:	0.6380	Medium:	0.3023	Few:	0.0130
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [123 | 200]
+    > [Train]	Loss:	4.5253
+    > [Test ]	Loss:	4.3274	Acc:	30.2900
+    > [Stats]	Many:	0.5871	Medium:	0.2649	Few:	0.0157
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [124 | 200]
+    > [Train]	Loss:	4.5502
+    > [Test ]	Loss:	4.3085	Acc:	33.5400
+    > [Stats]	Many:	0.6371	Medium:	0.3009	Few:	0.0237
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [125 | 200]
+    > [Train]	Loss:	4.5280
+    > [Test ]	Loss:	4.3130	Acc:	33.9500
+    > [Stats]	Many:	0.6071	Medium:	0.3411	Few:	0.0253
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [126 | 200]
+    > [Train]	Loss:	4.5630
+    > [Test ]	Loss:	4.3230	Acc:	32.1800
+    > [Stats]	Many:	0.6009	Medium:	0.2983	Few:	0.0237
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [127 | 200]
+    > [Train]	Loss:	4.5585
+    > [Test ]	Loss:	4.3104	Acc:	34.0400
+    > [Stats]	Many:	0.6180	Medium:	0.3303	Few:	0.0283
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [128 | 200]
+    > [Train]	Loss:	4.5003
+    > [Test ]	Loss:	4.3066	Acc:	33.7500
+    > [Stats]	Many:	0.6417	Medium:	0.3049	Few:	0.0207
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [129 | 200]
+    > [Train]	Loss:	4.5225
+    > [Test ]	Loss:	4.3260	Acc:	30.8200
+    > [Stats]	Many:	0.5860	Medium:	0.2757	Few:	0.0220
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [130 | 200]
+    > [Train]	Loss:	4.3989
+    > [Test ]	Loss:	4.3269	Acc:	32.3900
+    > [Stats]	Many:	0.6071	Medium:	0.3034	Few:	0.0173
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [131 | 200]
+    > [Train]	Loss:	4.5294
+    > [Test ]	Loss:	4.3114	Acc:	33.8600
+    > [Stats]	Many:	0.6171	Medium:	0.3280	Few:	0.0260
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [132 | 200]
+    > [Train]	Loss:	4.4547
+    > [Test ]	Loss:	4.3266	Acc:	32.0900
+    > [Stats]	Many:	0.6157	Medium:	0.2789	Few:	0.0260
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [133 | 200]
+    > [Train]	Loss:	4.4793
+    > [Test ]	Loss:	4.3167	Acc:	32.1200
+    > [Stats]	Many:	0.6217	Medium:	0.2809	Few:	0.0177
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [134 | 200]
+    > [Train]	Loss:	4.4841
+    > [Test ]	Loss:	4.3102	Acc:	34.2600
+    > [Stats]	Many:	0.6397	Medium:	0.3249	Few:	0.0167
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [135 | 200]
+    > [Train]	Loss:	4.4347
+    > [Test ]	Loss:	4.3132	Acc:	32.6100
+    > [Stats]	Many:	0.6186	Medium:	0.2997	Few:	0.0157
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [136 | 200]
+    > [Train]	Loss:	4.4401
+    > [Test ]	Loss:	4.3205	Acc:	32.0400
+    > [Stats]	Many:	0.5954	Medium:	0.3083	Few:	0.0137
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [137 | 200]
+    > [Train]	Loss:	4.4920
+    > [Test ]	Loss:	4.3147	Acc:	33.0000
+    > [Stats]	Many:	0.6274	Medium:	0.2946	Few:	0.0243
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [138 | 200]
+    > [Train]	Loss:	4.4820
+    > [Test ]	Loss:	4.3229	Acc:	32.7600
+    > [Stats]	Many:	0.6297	Medium:	0.2774	Few:	0.0337
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [139 | 200]
+    > [Train]	Loss:	4.4861
+    > [Test ]	Loss:	4.3023	Acc:	34.8200
+    > [Stats]	Many:	0.6446	Medium:	0.3260	Few:	0.0283
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [140 | 200]
+    > [Train]	Loss:	4.4671
+    > [Test ]	Loss:	4.3228	Acc:	33.5800
+    > [Stats]	Many:	0.6414	Medium:	0.2949	Few:	0.0270
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [141 | 200]
+    > [Train]	Loss:	4.4933
+    > [Test ]	Loss:	4.3162	Acc:	33.2500
+    > [Stats]	Many:	0.6097	Medium:	0.3149	Few:	0.0297
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [142 | 200]
+    > [Train]	Loss:	4.4250
+    > [Test ]	Loss:	4.3078	Acc:	33.7600
+    > [Stats]	Many:	0.6337	Medium:	0.3086	Few:	0.0260
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [143 | 200]
+    > [Train]	Loss:	4.4481
+    > [Test ]	Loss:	4.3157	Acc:	33.5100
+    > [Stats]	Many:	0.6151	Medium:	0.3214	Few:	0.0243
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [144 | 200]
+    > [Train]	Loss:	4.3874
+    > [Test ]	Loss:	4.3153	Acc:	33.3400
+    > [Stats]	Many:	0.6326	Medium:	0.2966	Few:	0.0273
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [145 | 200]
+    > [Train]	Loss:	4.4529
+    > [Test ]	Loss:	4.3149	Acc:	34.5800
+    > [Stats]	Many:	0.6529	Medium:	0.3131	Few:	0.0257
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [146 | 200]
+    > [Train]	Loss:	4.3643
+    > [Test ]	Loss:	4.3102	Acc:	33.4700
+    > [Stats]	Many:	0.6529	Medium:	0.2843	Few:	0.0223
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [147 | 200]
+    > [Train]	Loss:	4.3349
+    > [Test ]	Loss:	4.3167	Acc:	32.4000
+    > [Stats]	Many:	0.6203	Medium:	0.2929	Few:	0.0147
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [148 | 200]
+    > [Train]	Loss:	4.4108
+    > [Test ]	Loss:	4.3038	Acc:	33.9100
+    > [Stats]	Many:	0.6386	Medium:	0.3074	Few:	0.0267
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [149 | 200]
+    > [Train]	Loss:	4.3707
+    > [Test ]	Loss:	4.3175	Acc:	32.1200
+    > [Stats]	Many:	0.6023	Medium:	0.2994	Few:	0.0187
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [150 | 200]
+    > [Train]	Loss:	4.3587
+    > [Test ]	Loss:	4.3049	Acc:	33.5300
+    > [Stats]	Many:	0.6420	Medium:	0.2966	Few:	0.0227
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [151 | 200]
+    > [Train]	Loss:	4.4329
+    > [Test ]	Loss:	4.3047	Acc:	33.6300
+    > [Stats]	Many:	0.6211	Medium:	0.3146	Few:	0.0293
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [152 | 200]
+    > [Train]	Loss:	4.3867
+    > [Test ]	Loss:	4.2948	Acc:	34.3900
+    > [Stats]	Many:	0.6234	Medium:	0.3269	Few:	0.0377
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [153 | 200]
+    > [Train]	Loss:	4.4040
+    > [Test ]	Loss:	4.3225	Acc:	31.5200
+    > [Stats]	Many:	0.5794	Medium:	0.3043	Few:	0.0197
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [154 | 200]
+    > [Train]	Loss:	4.3054
+    > [Test ]	Loss:	4.3159	Acc:	33.3600
+    > [Stats]	Many:	0.6466	Medium:	0.2894	Few:	0.0200
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [155 | 200]
+    > [Train]	Loss:	4.3906
+    > [Test ]	Loss:	4.3116	Acc:	34.2400
+    > [Stats]	Many:	0.6537	Medium:	0.3083	Few:	0.0190
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [156 | 200]
+    > [Train]	Loss:	4.3248
+    > [Test ]	Loss:	4.3141	Acc:	34.1400
+    > [Stats]	Many:	0.6600	Medium:	0.2834	Few:	0.0373
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [157 | 200]
+    > [Train]	Loss:	4.3722
+    > [Test ]	Loss:	4.3273	Acc:	30.9200
+    > [Stats]	Many:	0.6131	Medium:	0.2449	Few:	0.0297
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [158 | 200]
+    > [Train]	Loss:	4.3839
+    > [Test ]	Loss:	4.3161	Acc:	32.4600
+    > [Stats]	Many:	0.6409	Medium:	0.2666	Few:	0.0233
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [159 | 200]
+    > [Train]	Loss:	4.3141
+    > [Test ]	Loss:	4.3064	Acc:	34.3700
+    > [Stats]	Many:	0.6409	Medium:	0.3229	Few:	0.0213
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [160 | 200]
+    > [Train]	Loss:	4.2773
+    > [Test ]	Loss:	4.3066	Acc:	34.7300
+    > [Stats]	Many:	0.6440	Medium:	0.3271	Few:	0.0247
+    > [Best ]	Acc:	35.1000	Many:	66.9429	Medium:	31.2857	Few:	2.4000
+    > [Param]	LR:	0.10000000
+---> Epoch: [161 | 200]
+    > [Train]	Loss:	8.7532
+    > [Test ]	Loss:	4.2768	Acc:	40.3300
+    > [Stats]	Many:	0.6963	Medium:	0.4049	Few:	0.0597
+    > [Best ]	Acc:	40.3300	Many:	69.6286	Medium:	40.4857	Few:	5.9667
+    > [Param]	LR:	0.00100000
+---> Epoch: [162 | 200]
+    > [Train]	Loss:	8.2218
+    > [Test ]	Loss:	4.2714	Acc:	42.2600
+    > [Stats]	Many:	0.6923	Medium:	0.4346	Few:	0.0940
+    > [Best ]	Acc:	42.2600	Many:	69.2286	Medium:	43.4571	Few:	9.4000
+    > [Param]	LR:	0.00100000
+---> Epoch: [163 | 200]
+    > [Train]	Loss:	7.8208
+    > [Test ]	Loss:	4.2680	Acc:	43.3600
+    > [Stats]	Many:	0.6903	Medium:	0.4469	Few:	0.1187
+    > [Best ]	Acc:	43.3600	Many:	69.0286	Medium:	44.6857	Few:	11.8667
+    > [Param]	LR:	0.00100000
+---> Epoch: [164 | 200]
+    > [Train]	Loss:	7.6247
+    > [Test ]	Loss:	4.2654	Acc:	44.2700
+    > [Stats]	Many:	0.6874	Medium:	0.4591	Few:	0.1380
+    > [Best ]	Acc:	44.2700	Many:	68.7428	Medium:	45.9143	Few:	13.8000
+    > [Param]	LR:	0.00100000
+---> Epoch: [165 | 200]
+    > [Train]	Loss:	7.3565
+    > [Test ]	Loss:	4.2634	Acc:	44.9000
+    > [Stats]	Many:	0.6834	Medium:	0.4614	Few:	0.1610
+    > [Best ]	Acc:	44.9000	Many:	68.3429	Medium:	46.1429	Few:	16.1000
+    > [Param]	LR:	0.00100000
+---> Epoch: [166 | 200]
+    > [Train]	Loss:	7.3270
+    > [Test ]	Loss:	4.2614	Acc:	45.5500
+    > [Stats]	Many:	0.6860	Medium:	0.4640	Few:	0.1767
+    > [Best ]	Acc:	45.5500	Many:	68.6000	Medium:	46.4000	Few:	17.6667
+    > [Param]	LR:	0.00100000
+---> Epoch: [167 | 200]
+    > [Train]	Loss:	7.2740
+    > [Test ]	Loss:	4.2602	Acc:	45.6600
+    > [Stats]	Many:	0.6829	Medium:	0.4703	Few:	0.1767
+    > [Best ]	Acc:	45.6600	Many:	68.2857	Medium:	47.0286	Few:	17.6667
+    > [Param]	LR:	0.00100000
+---> Epoch: [168 | 200]
+    > [Train]	Loss:	7.2482
+    > [Test ]	Loss:	4.2592	Acc:	46.0600
+    > [Stats]	Many:	0.6820	Medium:	0.4717	Few:	0.1893
+    > [Best ]	Acc:	46.0600	Many:	68.2000	Medium:	47.1714	Few:	18.9333
+    > [Param]	LR:	0.00100000
+---> Epoch: [169 | 200]
+    > [Train]	Loss:	7.1714
+    > [Test ]	Loss:	4.2578	Acc:	46.0800
+    > [Stats]	Many:	0.6817	Medium:	0.4723	Few:	0.1897
+    > [Best ]	Acc:	46.0800	Many:	68.1714	Medium:	47.2286	Few:	18.9667
+    > [Param]	LR:	0.00100000
+---> Epoch: [170 | 200]
+    > [Train]	Loss:	7.1449
+    > [Test ]	Loss:	4.2568	Acc:	46.3400
+    > [Stats]	Many:	0.6829	Medium:	0.4726	Few:	0.1967
+    > [Best ]	Acc:	46.3400	Many:	68.2857	Medium:	47.2571	Few:	19.6667
+    > [Param]	LR:	0.00100000
+---> Epoch: [171 | 200]
+    > [Train]	Loss:	7.0575
+    > [Test ]	Loss:	4.2559	Acc:	46.5200
+    > [Stats]	Many:	0.6806	Medium:	0.4771	Few:	0.2000
+    > [Best ]	Acc:	46.5200	Many:	68.0571	Medium:	47.7143	Few:	20.0000
+    > [Param]	LR:	0.00100000
+---> Epoch: [172 | 200]
+    > [Train]	Loss:	7.0878
+    > [Test ]	Loss:	4.2552	Acc:	46.3900
+    > [Stats]	Many:	0.6803	Medium:	0.4731	Few:	0.2007
+    > [Best ]	Acc:	46.5200	Many:	68.0571	Medium:	47.7143	Few:	20.0000
+    > [Param]	LR:	0.00100000
+---> Epoch: [173 | 200]
+    > [Train]	Loss:	6.8798
+    > [Test ]	Loss:	4.2546	Acc:	46.5100
+    > [Stats]	Many:	0.6809	Medium:	0.4763	Few:	0.2003
+    > [Best ]	Acc:	46.5200	Many:	68.0571	Medium:	47.7143	Few:	20.0000
+    > [Param]	LR:	0.00100000
+---> Epoch: [174 | 200]
+    > [Train]	Loss:	6.8912
+    > [Test ]	Loss:	4.2533	Acc:	46.6700
+    > [Stats]	Many:	0.6840	Medium:	0.4800	Few:	0.1977
+    > [Best ]	Acc:	46.6700	Many:	68.4000	Medium:	48.0000	Few:	19.7667
+    > [Param]	LR:	0.00100000
+---> Epoch: [175 | 200]
+    > [Train]	Loss:	6.8858
+    > [Test ]	Loss:	4.2527	Acc:	46.7500
+    > [Stats]	Many:	0.6809	Medium:	0.4823	Few:	0.2013
+    > [Best ]	Acc:	46.7500	Many:	68.0857	Medium:	48.2286	Few:	20.1333
+    > [Param]	LR:	0.00100000
+---> Epoch: [176 | 200]
+    > [Train]	Loss:	6.8811
+    > [Test ]	Loss:	4.2520	Acc:	46.9700
+    > [Stats]	Many:	0.6817	Medium:	0.4857	Few:	0.2037
+    > [Best ]	Acc:	46.9700	Many:	68.1714	Medium:	48.5714	Few:	20.3667
+    > [Param]	LR:	0.00100000
+---> Epoch: [177 | 200]
+    > [Train]	Loss:	6.8835
+    > [Test ]	Loss:	4.2516	Acc:	47.1200
+    > [Stats]	Many:	0.6814	Medium:	0.4831	Few:	0.2120
+    > [Best ]	Acc:	47.1200	Many:	68.1429	Medium:	48.3143	Few:	21.2000
+    > [Param]	LR:	0.00100000
+---> Epoch: [178 | 200]
+    > [Train]	Loss:	6.8405
+    > [Test ]	Loss:	4.2513	Acc:	47.0400
+    > [Stats]	Many:	0.6771	Medium:	0.4871	Few:	0.2097
+    > [Best ]	Acc:	47.1200	Many:	68.1429	Medium:	48.3143	Few:	21.2000
+    > [Param]	LR:	0.00100000
+---> Epoch: [179 | 200]
+    > [Train]	Loss:	6.7591
+    > [Test ]	Loss:	4.2511	Acc:	47.0700
+    > [Stats]	Many:	0.6783	Medium:	0.4831	Few:	0.2140
+    > [Best ]	Acc:	47.1200	Many:	68.1429	Medium:	48.3143	Few:	21.2000
+    > [Param]	LR:	0.00100000
+---> Epoch: [180 | 200]
+    > [Train]	Loss:	6.7739
+    > [Test ]	Loss:	4.2513	Acc:	47.1300
+    > [Stats]	Many:	0.6774	Medium:	0.4869	Few:	0.2127
+    > [Best ]	Acc:	47.1300	Many:	67.7429	Medium:	48.6857	Few:	21.2667
+    > [Param]	LR:	0.00100000
+---> Epoch: [181 | 200]
+    > [Train]	Loss:	6.6744
+    > [Test ]	Loss:	4.2521	Acc:	46.9100
+    > [Stats]	Many:	0.6771	Medium:	0.4840	Few:	0.2090
+    > [Best ]	Acc:	47.1300	Many:	67.7429	Medium:	48.6857	Few:	21.2667
+    > [Param]	LR:	0.00001000
+---> Epoch: [182 | 200]
+    > [Train]	Loss:	6.6628
+    > [Test ]	Loss:	4.2515	Acc:	46.9100
+    > [Stats]	Many:	0.6746	Medium:	0.4843	Few:	0.2117
+    > [Best ]	Acc:	47.1300	Many:	67.7429	Medium:	48.6857	Few:	21.2667
+    > [Param]	LR:	0.00001000
+---> Epoch: [183 | 200]
+    > [Train]	Loss:	6.6121
+    > [Test ]	Loss:	4.2513	Acc:	46.9400
+    > [Stats]	Many:	0.6760	Medium:	0.4829	Few:	0.2127
+    > [Best ]	Acc:	47.1300	Many:	67.7429	Medium:	48.6857	Few:	21.2667
+    > [Param]	LR:	0.00001000
+---> Epoch: [184 | 200]
+    > [Train]	Loss:	6.6794
+    > [Test ]	Loss:	4.2513	Acc:	46.9600
+    > [Stats]	Many:	0.6774	Medium:	0.4817	Few:	0.2130
+    > [Best ]	Acc:	47.1300	Many:	67.7429	Medium:	48.6857	Few:	21.2667
+    > [Param]	LR:	0.00001000
+---> Epoch: [185 | 200]
+    > [Train]	Loss:	6.6710
+    > [Test ]	Loss:	4.2508	Acc:	47.1000
+    > [Stats]	Many:	0.6766	Medium:	0.4823	Few:	0.2180
+    > [Best ]	Acc:	47.1300	Many:	67.7429	Medium:	48.6857	Few:	21.2667
+    > [Param]	LR:	0.00001000
+---> Epoch: [186 | 200]
+    > [Train]	Loss:	6.6449
+    > [Test ]	Loss:	4.2510	Acc:	47.1900
+    > [Stats]	Many:	0.6783	Medium:	0.4846	Few:	0.2163
+    > [Best ]	Acc:	47.1900	Many:	67.8286	Medium:	48.4571	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Epoch: [187 | 200]
+    > [Train]	Loss:	6.7464
+    > [Test ]	Loss:	4.2509	Acc:	47.0800
+    > [Stats]	Many:	0.6774	Medium:	0.4834	Few:	0.2150
+    > [Best ]	Acc:	47.1900	Many:	67.8286	Medium:	48.4571	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Epoch: [188 | 200]
+    > [Train]	Loss:	6.6039
+    > [Test ]	Loss:	4.2514	Acc:	47.2000
+    > [Stats]	Many:	0.6777	Medium:	0.4854	Few:	0.2163
+    > [Best ]	Acc:	47.2000	Many:	67.7714	Medium:	48.5429	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Epoch: [189 | 200]
+    > [Train]	Loss:	6.6818
+    > [Test ]	Loss:	4.2508	Acc:	47.0100
+    > [Stats]	Many:	0.6763	Medium:	0.4849	Few:	0.2123
+    > [Best ]	Acc:	47.2000	Many:	67.7714	Medium:	48.5429	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Epoch: [190 | 200]
+    > [Train]	Loss:	6.7115
+    > [Test ]	Loss:	4.2512	Acc:	47.1500
+    > [Stats]	Many:	0.6757	Medium:	0.4854	Few:	0.2170
+    > [Best ]	Acc:	47.2000	Many:	67.7714	Medium:	48.5429	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Epoch: [191 | 200]
+    > [Train]	Loss:	6.6271
+    > [Test ]	Loss:	4.2515	Acc:	47.0600
+    > [Stats]	Many:	0.6771	Medium:	0.4849	Few:	0.2130
+    > [Best ]	Acc:	47.2000	Many:	67.7714	Medium:	48.5429	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Epoch: [192 | 200]
+    > [Train]	Loss:	6.5893
+    > [Test ]	Loss:	4.2511	Acc:	47.0800
+    > [Stats]	Many:	0.6789	Medium:	0.4826	Few:	0.2143
+    > [Best ]	Acc:	47.2000	Many:	67.7714	Medium:	48.5429	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Epoch: [193 | 200]
+    > [Train]	Loss:	6.6624
+    > [Test ]	Loss:	4.2511	Acc:	47.1800
+    > [Stats]	Many:	0.6774	Medium:	0.4854	Few:	0.2160
+    > [Best ]	Acc:	47.2000	Many:	67.7714	Medium:	48.5429	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Epoch: [194 | 200]
+    > [Train]	Loss:	6.6242
+    > [Test ]	Loss:	4.2509	Acc:	46.9800
+    > [Stats]	Many:	0.6766	Medium:	0.4851	Few:	0.2107
+    > [Best ]	Acc:	47.2000	Many:	67.7714	Medium:	48.5429	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Epoch: [195 | 200]
+    > [Train]	Loss:	6.6403
+    > [Test ]	Loss:	4.2511	Acc:	47.1100
+    > [Stats]	Many:	0.6760	Medium:	0.4857	Few:	0.2150
+    > [Best ]	Acc:	47.2000	Many:	67.7714	Medium:	48.5429	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Epoch: [196 | 200]
+    > [Train]	Loss:	6.7335
+    > [Test ]	Loss:	4.2508	Acc:	47.0300
+    > [Stats]	Many:	0.6777	Medium:	0.4820	Few:	0.2147
+    > [Best ]	Acc:	47.2000	Many:	67.7714	Medium:	48.5429	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Epoch: [197 | 200]
+    > [Train]	Loss:	6.6602
+    > [Test ]	Loss:	4.2515	Acc:	47.0000
+    > [Stats]	Many:	0.6777	Medium:	0.4840	Few:	0.2113
+    > [Best ]	Acc:	47.2000	Many:	67.7714	Medium:	48.5429	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Epoch: [198 | 200]
+    > [Train]	Loss:	6.5800
+    > [Test ]	Loss:	4.2511	Acc:	46.9900
+    > [Stats]	Many:	0.6777	Medium:	0.4826	Few:	0.2127
+    > [Best ]	Acc:	47.2000	Many:	67.7714	Medium:	48.5429	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Epoch: [199 | 200]
+    > [Train]	Loss:	6.5421
+    > [Test ]	Loss:	4.2507	Acc:	46.9900
+    > [Stats]	Many:	0.6777	Medium:	0.4837	Few:	0.2113
+    > [Best ]	Acc:	47.2000	Many:	67.7714	Medium:	48.5429	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Epoch: [200 | 200]
+    > [Train]	Loss:	6.6864
+    > [Test ]	Loss:	4.2507	Acc:	47.0800
+    > [Stats]	Many:	0.6774	Medium:	0.4840	Few:	0.2143
+    > [Best ]	Acc:	47.2000	Many:	67.7714	Medium:	48.5429	Few:	21.6333
+    > [Param]	LR:	0.00001000
+---> Final performance...
+    > best bAcc (test):	47.2
+    > best statistics:	Many:	0.6777143478393555	Med:	0.4854285717010498	Few:	0.21633334457874298
+---> Training Time: 0:16:29.10
